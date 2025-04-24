@@ -1,0 +1,63 @@
+
+
+/* ==========================================================================
+   印刷用
+   ========================================================================== */
+
+
+
+/* -------------------------------------------------------------- 
+ 
+ Hartija CSS Print Framework -MIT License
+   * Version:   1.0
+ 
+-------------------------------------------------------------- */
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        /*chrome用*/
+        zoom: .8;
+        border-top: none;
+    }
+    .bgImg {
+        display: list-item;/* 該当箇所の表示方法をlist-itemに */
+        list-style-image: url(print_bg.png);/* 表示させたい画像 */
+        list-style-position: inside;/* マーカーの位置を内側に */
+    }
+    header{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    .footerTelSp{
+        display: none;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .fixBar{
+        display: none !important;
+    }
+    .parallax-mirror {
+        display: none;
+        height: 0 !important;
+    }
+    .rellax{
+        transform: none !important;
+    }
+    // 印刷したくない領域
+    .PrintHidden {
+        display: none;
+    }
+    // 印刷したい領域
+    .printArea{
+        //top:0 !important;
+        //left:0 !important;
+        //width:172mm !important;
+        //height:251mm !important;
+        margin: 0;
+        padding: 0;
+    }    
+}
