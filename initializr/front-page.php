@@ -44,7 +44,10 @@
                             }
                     ?>
                             <div class="swiper-slide">
-                                <a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url($img_url); ?>" alt="<?php the_title_attribute(); ?>"></a>
+                                <a href="<?php the_permalink(); ?>">
+                                    <img src="<?php echo esc_url($img_url); ?>" alt="<?php the_title_attribute(); ?>" class="mb5">
+                                    <p class="text-center bold fsM4 lh_m"><?php the_title_attribute(); ?></p>
+                                </a>
                             </div>
                     <?php
                         endwhile;
@@ -176,42 +179,42 @@
                 <h2 class="ja">ホースワンゴルフスタジオの特徴</h2>
             </div>
             <div class="featureBox mbM3">
-                <a href="<?= home_url(); ?>/facility#feature1" class="featureBoxItem">
+                <a href="<?= home_url(); ?>/facility/#feature1" class="featureBoxItem">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature1.jpg" alt=""></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.01</div>
                         <p class="fsM32 bold600 lh_m ls_m">自分に合った練習方法で、<br class="pc">楽しく・確実にステップアップ</p>
                     </div>
                 </a>
-                <a href="<?= home_url(); ?>/facility#feature2" class="featureBoxItem">
+                <a href="<?= home_url(); ?>/facility/#feature2" class="featureBoxItem">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature2.jpg" alt=""></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.02</div>
                         <p class="fsM32 bold600 lh_m ls_m">AI×最先端測定で、<br>“なんとなく”を卒業する</p>
                     </div>
                 </a>
-                <a href="<?= home_url(); ?>/facility#feature3" class="featureBoxItem">
+                <a href="<?= home_url(); ?>/facility/#feature3" class="featureBoxItem">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature3.jpg" alt=""></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.03</div>
                         <p class="fsM32 bold600 lh_m ls_m">型にはめるのではなく、<br class="pc">個性を引き出すレッスン</p>
                     </div>
                 </a>
-                <a href="<?= home_url(); ?>/facility#feature4" class="featureBoxItem">
+                <a href="<?= home_url(); ?>/facility/#feature4" class="featureBoxItem">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature4.jpg" alt=""></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.04</div>
                         <p class="fsM32 bold600 lh_m ls_m">岡山駅徒歩圏内。<br>通いやすさも、本気の継続力に</p>
                     </div>
                 </a>
-                <a href="<?= home_url(); ?>/facility#feature5" class="featureBoxItem">
+                <a href="<?= home_url(); ?>/facility/#feature5" class="featureBoxItem">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature5.jpg" alt=""></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.05</div>
                         <p class="fsM32 bold600 lh_m ls_m">集中と安心の空間、<br>プライベートルームで<br class="pc">本気の1時間を</p>
                     </div>
                 </a>
-                <a href="<?= home_url(); ?>/facility#feature6" class="featureBoxItem">
+                <a href="<?= home_url(); ?>/facility/#feature6" class="featureBoxItem">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature6.jpg" alt=""></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.06</div>
@@ -220,7 +223,7 @@
                 </a>
             </div>
             <div class="text-center">
-                <a href="<?= home_url(); ?>/facility#faciFeature" class="cmnbtn --center"><span>ホースワンゴルフスタジオの<br class="sp">特徴を詳しく見る</span></a>
+                <a href="<?= home_url(); ?>/facility/#faciFeature" class="cmnbtn --center"><span>ホースワンゴルフスタジオの<br class="sp">特徴を詳しく見る</span></a>
             </div>
         </div>
     </div>
@@ -243,16 +246,16 @@
                         <p class="bold600 fsM2 lh_m mbS mbSpS3">感覚と数値、両方から見直せる“パター専用ゾーン”</p>
                         <p class="mbM3 lh_xl">パター一打の精度がスコアを大きく左右するからこそ、感覚任せではなく、見える化された練習が必要です。TOURPUTT360とパットラボ（SAM PuttLab）を活用し、「理由ある改善」に取り組みます。</p>
                         <div class="facilityBtnWrap --col2 mbS">
-                            <a href="<?= home_url(); ?>/facility#faciPutter-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn1.jpg);">
+                            <a href="<?= home_url(); ?>/facility/#faciPutter-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn1.jpg);">
                                 <p class="en bold600 fsM3">TOURPUTT 360</p>
                                 <p>傾斜も再現するパター練習</p>
                             </a>
-                            <a href="<?= home_url(); ?>/facility#faciPutter-2" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn2.jpg);">
+                            <a href="<?= home_url(); ?>/facility/#faciPutter-2" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn2.jpg);">
                                 <p class="en bold600 fsM3 lh_s">パットラボ<br>（SAM PuttLab）</p>
                                 <p>ストロークのクセを見える化</p>
                             </a>
                         </div>
-                        <a href="<?= home_url(); ?>/facility#faciStyle1" class="cmnbtn"><span>パター練習エリアで出来ることを見る</span></a>
+                        <a href="<?= home_url(); ?>/facility/#faciStyle1" class="cmnbtn"><span>パター練習エリアで出来ることを見る</span></a>
                     </div>
                 </div>
             </div>
@@ -265,18 +268,18 @@
                         <p class="bold600 fsM2 lh_m mbS mbSpS3">データで可視化する、<br>本質的なスイング練習</p>
                         <p class="mbM3 lh_xl">お一人での「打ちっぱなし」とは異なり、スイングの軌道やスピン量などの詳細なデータをリアルタイムで可視化し、インストラクターがその数値をもとに的確なアドバイスを行います。感覚に頼らず、根拠ある上達ができる環境です。</p>
                         <div class="facilityBtnWrap --col3 mbS">
-                            <a href="<?= home_url(); ?>/facility#faciSecret-1" class="facilityBtn" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility2-btn1.jpg);">
+                            <a href="<?= home_url(); ?>/facility/#faciSecret-1" class="facilityBtn" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility2-btn1.jpg);">
                                 <p class="en bold600 fsM4 lh_s">２打席あり<br>（個室）</p>
                             </a>
-                            <a href="<?= home_url(); ?>/facility#faciSecret-2" class="facilityBtn" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility2-btn2.jpg);">
+                            <a href="<?= home_url(); ?>/facility/#faciSecret-2" class="facilityBtn" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility2-btn2.jpg);">
                                 <p class="en bold600 fsM4 lh_s">グループ<br>レッスン<br>可能</p>
                             </a>
-                            <a href="<?= home_url(); ?>/facility#faciSecret-3" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility2-btn3.jpg);">
+                            <a href="<?= home_url(); ?>/facility/#faciSecret-3" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility2-btn3.jpg);">
                                 <p class="en bold600 fsM3">JoyGolf smart+</p>
                                 <p class="lh_m">スイングの骨格を自動分析し、<br>打球の軌道やヘッドの動きを再現</p>
                             </a>
                         </div>
-                        <a href="<?= home_url(); ?>/facility#faciStyle2" class="cmnbtn"><span>オープン打席で出来ることを見る</span></a>
+                        <a href="<?= home_url(); ?>/facility/#faciStyle2" class="cmnbtn"><span>個室打席で出来ることを見る</span></a>
                     </div>
                 </div>
             </div>
@@ -289,16 +292,16 @@
                         <p class="bold600 fsM2 lh_m mbS mbSpS3">精密データと静寂空間で、<br>理想の1本と出会う</p>
                         <p class="mbM3 lh_xl">完全個室のプライベートルームでは、トラックマンやSLAPなどの最先端機器によって、フォームやクラブ選びを数値で可視化します。600本近くのシャフトを試打でき、フィッティング結果に基づいて、クラフトマンが最適な1本を組み立てます。</p>
                         <div class="facilityBtnWrap --col2 mbS">
-                            <a href="<?= home_url(); ?>/facility#faciPrivate-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility3-btn1.jpg);">
+                            <a href="<?= home_url(); ?>/facility/#faciPrivate-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility3-btn1.jpg);">
                                 <p class="en bold600 fsM3">TRACKMAN</p>
                                 <p>軍用技術から生まれた精密解析</p>
                             </a>
-                            <a href="<?= home_url(); ?>/facility#faciPrivate-2" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility3-btn2.jpg);">
+                            <a href="<?= home_url(); ?>/facility/#faciPrivate-2" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility3-btn2.jpg);">
                                 <p class="en bold600 fsM3">SLAP</p>
                                 <p>スイング負荷を数値化する新発想</p>
                             </a>
                         </div>
-                        <a href="<?= home_url(); ?>/facility#faciStyle3" class="cmnbtn"><span>プライベートルームで出来ることを見る</span></a>
+                        <a href="<?= home_url(); ?>/facility/#faciStyle3" class="cmnbtn"><span>プライベートルームで出来ることを見る</span></a>
                     </div>
                 </div>
             </div>
@@ -403,7 +406,7 @@
             <div class="cntS">
                 <div class="ttlWrap text-center white mbS">
                     <div class="en">Private Coaching</div>
-                    <h2 class="ja">プライベートレッスン</h2>
+                    <h2 class="ja">個別指導レッスン</h2>
                 </div>
                 <h3 class="text-center white bold600 fsL5 lh_m">初心者から上級者まで、<br>目的に応じて選べる<br class="sp">個別指導レッスン</h3>
                 <div class="coachingLesson paddingS">
@@ -467,7 +470,7 @@
                         <div class="text ls_l">
                             <div class="name mbS2 flex cg1em alignCenter">
                                 <p class="ja bold600 fsM15 lh_m">奥嶋 誠昭</p>
-                                <p class="en mainColor">Okushima</p>
+                                <p class="en mainColor">Tomoaki Okushima</p>
                             </div>
                             <div class="instInfo mbS">
                                 <dl class="mbS2">
@@ -483,7 +486,8 @@
                                 </dl>
                             </div>
                             <p class="lh_xl mbS">坂本インストラクターは、どんな相手にも誠実かつ丁寧に向き合い、年齢や技術レベルを問わず、その人に最適な言葉と方法で導くことのできる稀有な指導者です。<br>ホースワンゴルフスタジオは彼の妥協を許さないこだわりと、ゴルフに対する深い情熱が隅々まで息づいた空間です。<br>
-                                パター、アプローチ、トレーニング、フィッティングに至るまで、あらゆる要素を高精度な設備とデータで網羅したこのスタジオは、西日本において他に類を見ない総合力を誇っています。<br>ゴルフと本気で向き合い、確かな成長を求めるすべてのプレーヤーに、心から推薦いたします。</p>
+                                <!-- パター、アプローチ、トレーニング、フィッティングに至るまで、あらゆる要素を高精度な設備とデータで網羅したこのスタジオは、西日本において他に類を見ない総合力を誇っています。<br>ゴルフと本気で向き合い、確かな成長を求めるすべてのプレーヤーに、心から推薦いたします。 -->
+                            </p>
                             <a href="<?= home_url(); ?>/price/#comment" class="cmnbtn"><span>もっと詳しく知る</span></a>
                         </div>
 
@@ -555,14 +559,14 @@
             </div>
             <div class="lineTtl mainColor bold600 fsM3 mbS text-center lh_m">目的に合わせたレッスン&<br class="sp">フィッティングプラン</div>
             <div class="lessonFlex mbS">
-                <a href="<?= home_url(); ?>/price#lesson1">
+                <a href="<?= home_url(); ?>/price/#lesson1">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson1.jpg" alt=""></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">レッスン（通常）</p>
                         <p class="white text-center fsM35 lh_m">60<span class="enS">分</span>　4,400<span class="enS">円〜</span></p>
                     </div>
                 </a>
-                <a href="<?= home_url(); ?>/price#lesson2">
+                <a href="<?= home_url(); ?>/price/#lesson2">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson2.jpg" alt=""></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">ツアーパット<br class="sp">(テスト型)</p>
@@ -570,7 +574,7 @@
                     </div>
                 </a>
 
-                <a href="<?= home_url(); ?>/price#lesson3">
+                <a href="<?= home_url(); ?>/price/#lesson3">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson3.jpg" alt=""></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">パットラボ</p>
@@ -578,7 +582,7 @@
                     </div>
                 </a>
 
-                <a href="<?= home_url(); ?>/price#lesson4">
+                <a href="<?= home_url(); ?>/price/#lesson4">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson4.jpg" alt=""></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">パターレッスン</p>
@@ -586,7 +590,7 @@
                     </div>
                 </a>
 
-                <a href="<?= home_url(); ?>/price#lesson5">
+                <a href="<?= home_url(); ?>/price/#lesson5">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson5.jpg" alt=""></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">コースレッスン<br class="sp">(9ホール)</p>
@@ -594,7 +598,7 @@
                     </div>
                 </a>
 
-                <a href="<?= home_url(); ?>/price#lesson6">
+                <a href="<?= home_url(); ?>/price/#lesson6">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson6.jpg" alt=""></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">フィッティング</p>
@@ -616,11 +620,11 @@
                     <p class="en bold600 fsM35">Amenities</p>
                     <p class="ja bold600 fsM2">設備案内</p>
                 </a>
-                <a href="<?= home_url(); ?>/price#priceFlow" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/otherPage2.jpg);" class="white text-center lh_m">
+                <a href="<?= home_url(); ?>/price/#priceFlow" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/otherPage2.jpg);" class="white text-center lh_m">
                     <p class="en bold600 fsM35">Flow</p>
                     <p class="ja bold600 fsM2">入会の流れ</p>
                 </a>
-                <a href="<?= home_url(); ?>/price#priceFaq" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/otherPage3.jpg);" class="white text-center lh_m">
+                <a href="<?= home_url(); ?>/price/#priceFaq" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/otherPage3.jpg);" class="white text-center lh_m">
                     <p class="en bold600 fsM35">Q&A</p>
                     <p class="ja bold600 fsM2">よくあるご質問</p>
                 </a>
@@ -635,8 +639,8 @@
                 <div class="en">Voice</div>
                 <h2 class="ja">お客様の声</h2>
             </div>
-            <h3 class="text-center white bold600 fsL5 lh_m mbS3">プレイスタイルに合わせた空間</h3>
-            <p class="text-center white mbS">目的に合わせて選べる、こだわりの練習空間</p>
+            <h3 class="text-center white bold600 fsL5 lh_m mbS3">積み重ねた努力が、確かな自信に。</h3>
+            <p class="text-center white mbS">ホースワンゴルフスタジオをご利用いただいたお客様の声をご紹介いたします。</p>
         </div>
     </div>
 </section>
@@ -752,7 +756,7 @@
     let bgx = 0;
     let bgy = 0;
     setInterval(function() {
-        bgx += -0.5;
+        bgx += -0.9;
         bgy += 0;
         streamingImg.style.backgroundPosition = bgx + "px " + bgy + "px";
     }, 10);
@@ -760,7 +764,7 @@
     let bgx2 = 0;
     let bgy2 = 0;
     setInterval(function() {
-        bgx2 += -0.9;
+        bgx2 += -0.5;
         bgy2 += 0;
         streamingImg2.style.backgroundPosition = bgx2 + "px " + bgy2 + "px";
     }, 10);

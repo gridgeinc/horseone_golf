@@ -262,7 +262,7 @@
                                 <div class="img mbS2">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/faciSecret3.jpg" alt="">
                                 </div>
-                                <p class="bold600 fsM4 text-center">打席数：3打席</p>
+                                <p class="bold600 fsM4 text-center">打席数：2打席</p>
                             </div>
                             <div id="faciSecret-2">
                                 <div class="img mbS2">
@@ -316,7 +316,9 @@
                         <div class="">
                             <div class="cntM">
                                 <div class="faciStylePoint">
-                                    <p class="bold600 fsM2 text-center lh_m ttl mbS mbSpM2">実践的な練習で得られる<br class="sp"><span class="mainColor bold600 inter fsL2 lh_s">5</span>つのポイント</p>
+                                    <p class="bold600 fsM2 text-center lh_m ttl mbS mbSpM2">
+                                        データ活用で得られる<br class="sp"><span class="mainColor bold600 inter fsL2 lh_s">5</span>つのポイント
+                                    </p>
                                     <div class="cnt">
                                         <div class="cntS">
                                             <div class="pointWrap --col5">
@@ -388,7 +390,6 @@
                         <div class="cntS mbM2 mbSpL4">
                             <div class="faciStyleIntroduce">
                                 <div class="faciStyleIntroItem relative" id="faciPrivate-1">
-                                    <div class="dounyu z-2">西日本<br><span>初導入</span></div>
                                     <div class="img">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate3.jpg" alt=""></div>
@@ -406,6 +407,7 @@
                                     </div>
                                 </div>
                                 <div class="faciStyleIntroItem relative" id="faciPrivate-2">
+                                    <div class="dounyu z-2">西日本<br><span>初導入</span></div>
                                     <div class="img">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate4.jpg" alt=""></div>
@@ -427,29 +429,36 @@
                         <div class="">
                             <div class="cntM">
                                 <div class="faciStylePoint">
-                                    <p class="bold600 fsM2 text-center lh_m ttl mbS mbSpM2 ls_l">パター練習で得られる<span class="mainColor bold600 inter fsL2 lh_s">4</span>つのポイント</p>
+                                    <p class="bold600 fsM2 text-center lh_m ttl mbS mbSpM2 ls_l">
+                                        パーソナル強化に特化した<span class="mainColor bold600 inter fsL2 lh_s">5</span>つのポイント
+                                    </p>
                                     <div class="cnt">
                                         <div class="cntS">
-                                            <div class="pointWrap">
+                                            <div class="pointWrap --col5">
                                                 <div>
                                                     <div class="num">Point<span>01</span></div>
                                                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivatePoint1.jpg" alt=""></div>
-                                                    <p class="lh_m">ハイスピードカメラ×AI解析で、 スイングやクラブの動きを可視化</p>
+                                                    <p class="lh_m">トラックマンで弾道やスピン量、打ち出し角を正確に計測し、スイングを見える化</p>
                                                 </div>
                                                 <div>
                                                     <div class="num">Point<span>02</span></div>
                                                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivatePoint2.jpg" alt=""></div>
-                                                    <p class="lh_m">打ち出し角・スピン量・ヘッドの軌道まで数値化。「何がズレているか」を解明</p>
+                                                    <p class="lh_m">SLAPでスイング特性とシャフトの相性を数値で診断。最適なスペックを導き出せる</p>
                                                 </div>
                                                 <div>
                                                     <div class="num">Point<span>03</span></div>
                                                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivatePoint3.jpg" alt=""></div>
-                                                    <p class="lh_m">シャフトごとの相性を数値で比較し、納得感のあるフィッティングを実現</p>
+                                                    <p class="lh_m">600本近くのシャフトをその場で試打。振り心地とデータを比較しながら選べる</p>
                                                 </div>
                                                 <div>
                                                     <div class="num">Point<span>04</span></div>
                                                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivatePoint4.jpg" alt=""></div>
-                                                    <p class="lh_m">600本の試打とデータをもとに、クラフトマンが最適な1本をカスタム</p>
+                                                    <p class="lh_m">クラフトマンがフィッティング結果に基づいて組み立てを担当。微調整にも対応可能</p>
+                                                </div>
+                                                <div>
+                                                    <div class="num">Point<span>05</span></div>
+                                                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivatePoint4.jpg" alt=""></div>
+                                                    <p class="lh_m">完全個室で、集中力を高めながらじっくりトレーニングに取り組める</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -482,7 +491,7 @@
     <div class="cnt">
         <div class="cntM">
             <div class="ttlWrap text-center mbS">
-                <div class="en mainColor black">Custom Club Fitting</div>
+                <div class="en subColor">Custom Club Fitting</div>
                 <h2 class="ja">クラフト工房のご紹介</h2>
             </div>
             <p class="text-center bold600 fsL inter">Coming soon</p>
@@ -494,7 +503,7 @@
         <div class="cntM">
             <div class="ttlWrap text-center mbS">
                 <div class="en subColor">Amenities</div>
-                <h2 class="ja">施設紹介</h2>
+                <h2 class="ja">設備案内</h2>
             </div>
             <h3 class="text-center bold600 fsM15 lh_m mbS3">充実した設備で、<br class="sp">いつでも快適にゴルフを楽しむ</h3>
             <p class="text-center mbM3">充実した設備で、初心者から経験者まで、<br class="sp">どなたでも安心してご利用いただけます。</p>

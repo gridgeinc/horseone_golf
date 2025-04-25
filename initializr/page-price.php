@@ -25,7 +25,7 @@
         <div class="cntM">
             <div class="ttlWrap text-center mbS">
                 <div class="en subColor">Service&Price</div>
-                <h2 class="ja">施設紹介</h2>
+                <h2 class="ja">料金プラン</h2>
             </div>
             <h3 class="text-center bold600 fsM15 lh_m mbS3">スイングからコース戦略まで、<br class="sp">目的に合わせたレッスンプラン</h3>
             <p class="text-center mbM3">初心者も経験者も、自分のペースで通えるプランをご用意しています。</p>
@@ -385,7 +385,7 @@
                         <div class="text ls_l">
                             <div class="name mbS2 flex cg1em alignCenter">
                                 <p class="ja bold600 fsM15 lh_m">奥嶋 誠昭</p>
-                                <p class="en mainColor">Okushima</p>
+                                <p class="en mainColor">Tomoaki Okushima</p>
                             </div>
                             <div class="instInfo mbS">
                                 <dl class="mbS2">

@@ -62,6 +62,9 @@ main {
   // overflow-x: hidden;
   // overflow-y: auto;
   contain: paint;
+  @include tab {
+    margin-top: 70px;
+  }
   &.page {
     margin-top: 90px;
     @include sp {
@@ -161,6 +164,9 @@ header {
   @include note {
     padding-left: 15px;
   }
+  @include tab {
+    height: 70px;
+  }
   @include sp {
     height: 55px;
   }
@@ -181,6 +187,10 @@ header {
     aspect-ratio: 188 / 52;
     background: url(../img/logo-white.svg) no-repeat center/contain;
     text-indent: -99999px;
+    @include tab {
+      aspect-ratio: 182 / 38;
+      background: url(../img/logo-white.svg) no-repeat left/contain;
+    }
     @include sp {
       width: 95px;
     }
@@ -301,8 +311,13 @@ header {
   color: #fff;
   li {
     a {
+      text-shadow: 2px 2px 12px rgba(0,0,0,0.18);
       padding: 0 0.8em;
       @include bold500;
+      .scrl &
+      .page & {
+        text-shadow: none;
+      }
       @include note {
         font-size: 14px;
         padding-inline: 0.5em;
@@ -320,6 +335,9 @@ header {
   @include note {
     padding-left: 1em;
     padding-right: 1em;
+  }
+  @include sp {
+    padding-block: 1em;
   }
   .ttl {
     background-color: #fff;
@@ -344,7 +362,7 @@ header {
     * {
       line-height: 1.3;
       @include note {
-        font-size: 14px;
+        font-size: 16px;
       }
     }
   }
@@ -435,7 +453,11 @@ header {
     padding-block: 5%;
     overflow-y: scroll;
     height: calc(100dvh - 50px);
-    width: 400px;
+    // width: 400px;
+    width: 100%;
+  }
+  @include tab {
+    top: 70px;
   }
   @include sp {
     top: 50px;
@@ -1014,7 +1036,7 @@ ul.topNewsList {
         padding-right: 0.6em;
       }
     }
-    + & {
+    + li {
       margin-top: 0.5em;
     }
   }
@@ -1301,6 +1323,17 @@ ul.topNewsList {
     }
   }
   &.--col3 {
+    @include tab {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      > * {
+        width: 100% !important;
+        &:last-of-type {
+          grid-column: 1 / 3;
+          grid-row: 2 / 2;
+        }
+      } 
+    }
     @include sp {
       flex-direction: row;
       flex-wrap: wrap;
