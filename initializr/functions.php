@@ -318,13 +318,13 @@ function info($info)
     } elseif ($info == "ceo") {
         echo "";
     } elseif ($info == "postalCode") {
-        echo "〒";
+        echo "〒700-0903";
     } elseif ($info == "address") {
-        echo "岡山県岡山北区駅元町";
+        echo "岡山市北区幸町7-20 アクタスビル 3F";
     } elseif ($info == "tel") {
-        echo "050-222-222";
+        echo ""; // 050-222-222
     } elseif ($info == "telNotHy") {
-        echo "050222222";
+        echo ""; // 050222222
     } elseif ($info == "fax") {
         echo "";
     } elseif ($info == "mail") {
@@ -390,5 +390,3 @@ function change_posts_per_page($query)
     }
 }
 add_action('pre_get_posts', 'change_posts_per_page');
-
-

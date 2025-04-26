@@ -247,7 +247,7 @@
                         <p class="mbM3 lh_xl">パター一打の精度がスコアを大きく左右するからこそ、感覚任せではなく、見える化された練習が必要です。TOURPUTT360とパットラボ（SAM PuttLab）を活用し、「理由ある改善」に取り組みます。</p>
                         <div class="facilityBtnWrap --col2 mbS">
                             <a href="<?= home_url(); ?>/facility/#faciPutter-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn1.jpg);">
-                                <p class="en bold600 fsM3">TOURPUTT 360</p>
+                                <p class="en bold600 fsM3">TOURPUTT Circle</p>
                                 <p>傾斜も再現するパター練習</p>
                             </a>
                             <a href="<?= home_url(); ?>/facility/#faciPutter-2" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn2.jpg);">
@@ -335,13 +335,13 @@
                         <div class="dounyu">西日本<br><span>初導入</span></div>
                         <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/topFitting1.jpg" alt=""></div>
                         <p class="text-center bold600">スイング負荷を数値化する新発想</p>
-                        <h4 class="bold600 fsM2 mainColor text-center mbS2">シャフトフィッティングSLAP</h4>
+                        <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">SLAP｜スラップ</h4>
                         <p>スイング中にシャフトへかかる負荷を可視化し、スイング特性にマッチしたシャフトを導き出すフィッティングシステム。スイングデータをもとに、最適な1本を科学的にカスタマイズします。</p>
                     </a>
                     <a href="<?php echo home_url('facility/#faciCustom'); ?>" class="equipItem">
                         <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/topFitting2.jpg" alt=""></div>
                         <p class="text-center bold600">スイングの真価を引き出す一本を</p>
-                        <h4 class="bold600 fsM2 mainColor text-center mbS2">クラフト＆組み立て工房</h4>
+                        <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">クラフト＆組み立て工房</h4>
                         <p>スイングデータをもとに、600本以上の試打クラブからスイングに最適な1本を選定。クラフトマンが一本一本を手作業で組み上げ、データと感覚の両面から納得のカスタムクラブをご提供します。</p>
                     </a>
                 </div>
@@ -360,13 +360,13 @@
                         <div class="dounyu">中国地方<br><span>初導入</span></div>
                         <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/topPatting1.jpg" alt=""></div>
                         <p class="text-center bold600">傾斜も再現するパター練習</p>
-                        <h4 class="bold600 fsM2 mainColor text-center mbS2">TOURPUTT 360｜ツアーパット</h4>
+                        <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">TOURPUTT Circle｜<br>ツアーパット・サイクル</h4>
                         <p>傾斜・方向・距離の違いを組み合わせた36通りのラインを再現。リアルな転がりを体感しながら、実戦力を養えるシステムです。 </p>
                     </a>
                     <a href="<?php echo home_url('facility/#faciPutter-2'); ?>" class="equipItem">
                         <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/topPatting2.jpg" alt=""></div>
                         <p class="text-center bold600">手元とフェースを数値分析し、ストロークを見える化</p>
-                        <h4 class="bold600 fsM2 mainColor text-center mbS2">パットラボ（PUTTLAB）</h4>
+                        <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">SAM PuttLab｜パットラボ</h4>
                         <p>インパクト時の手の動きやフェースの向きを高精度に分析。自分では気づきにくいストロークのクセやズレを数値で可視化します。</p>
                     </a>
                 </div>
@@ -385,14 +385,14 @@
                         <div class="dounyu">個室<br>打席採用</div>
                         <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/topSimu1.jpg" alt=""></div>
                         <p class="text-center bold600">臨場感のあるプレイ体験で、楽しみながら上達</p>
-                        <h4 class="bold600 fsM2 mainColor text-center mbS2">JoyGolf ｜smart+</h4>
+                        <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">JoyGolf smart+｜<br>ジョイゴルフ スマートプラス</h4>
                         <p>実在のコースを再現し、傾斜やグリーンの速さ、風の影響までも体感できる、臨場感あふれるゴルフシミュレーター。データを可視化しながら、効率的なフォーム改善へつなげます。</p>
                     </a>
                     <a href="<?php echo home_url('facility/#faciPrivate-1'); ?>" class="equipItem">
                         <div class="dounyu">プライ<br>ベート<br>ルーム採用</div>
                         <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/topSimu2.jpg" alt=""></div>
                         <p class="text-center bold600">軍用技術から生まれた精密解析</p>
-                        <h4 class="bold600 fsM2 mainColor text-center mbS2">TRACKMAN ｜トラックマン</h4>
+                        <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">TRACKMAN｜トラックマン</h4>
                         <p>軍用に使われていたレーダー技術を応用し、スイングや弾道を高精度で解析。打ち出し角、スピン量、キャリー距離、ヘッドの軌道までリアルタイムで計測します。</p>
                     </a>
                 </div>

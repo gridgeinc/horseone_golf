@@ -167,7 +167,7 @@
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
-                                    <div class="ttl bgMainColor white bold600 fsM3 text-center">TOURPUTT（ツアーパット360）</div>
+                                    <div class="ttl bgMainColor white bold600 fsM3 text-center lh_s">TOURPUTT Circle｜<br>ツアーパット・サイクル</div>
                                     <div class="txt">
                                         <p class="bold600 text-center">傾斜も再現するパター練習</p>
                                         <p class="bold600 fsM3 text-center lh_m mbS2 ls_m">36パターンのラインを攻略</p>
@@ -184,7 +184,7 @@
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
-                                    <div class="ttl bgMainColor white bold600 fsM3 text-center">パットラボ（SAM PuttLab）</div>
+                                    <div class="ttl bgMainColor white bold600 fsM3 text-center lh_s">SAM PuttLab｜パットラボ</div>
                                     <div class="txt">
                                         <p class="bold600 text-center">ストロークのクセを見える化</p>
                                         <p class="bold600 fsM3 text-center lh_m mbS2 ls_m">手元とフェースを数値分析</p>
@@ -399,7 +399,7 @@
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
-                                    <div class="ttl bgMainColor white bold600 fsM2 text-center">TRACKMAN</div>
+                                    <div class="ttl bgMainColor white bold600 fsM2 text-center">TRACKMAN｜トラックマン</div>
                                     <div class="txt">
                                         <p class="bold600 text-center">軍用技術から生まれた精密解析</p>
                                         <p class="bold600 fsM3 text-center lh_m mbS2 ls_m">スイングと弾道を科学で“見える化”</p>
@@ -417,7 +417,7 @@
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
-                                    <div class="ttl bgMainColor white bold600 fsM2 text-center">SLAP</div>
+                                    <div class="ttl bgMainColor white bold600 fsM2 text-center">SLAP｜スラップ</div>
                                     <div class="txt">
                                         <p class="bold600 text-center">スイング負荷を数値化する新発想</p>
                                         <p class="bold600 fsM3 text-center lh_m15 mbS2 ls_m">スイングデータをもとに、<br>最適な1本を科学的にカスタマイズ</p>
