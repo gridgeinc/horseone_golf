@@ -1,6 +1,6 @@
-<li>
+<!-- <li>
     <a href="<?= home_url(); ?>">トップ</a>
-</li>
+</li> -->
 <li>
     <a href="<?= home_url(); ?>/facility/#faciFeature">特徴</a>
 </li>
@@ -21,4 +21,7 @@
 </li>
 <li>
     <a href="<?= home_url(); ?>/facility/#faciAccess">アクセス</a>
+</li>
+<li>
+    <a href="<?= home_url(); ?>/law">特商法について</a>
 </li>

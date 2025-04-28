@@ -574,11 +574,11 @@
                 </div>
                 <div>
                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciAccess2.jpg" alt=""></div>
-                    <p>②桃太郎大通りを東へ直進（約6分）</p>
+                    <p>②桃太郎大通りを東へ直進（約7分）</p>
                 </div>
                 <div>
                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciAccess3.jpg" alt=""></div>
-                    <p>③左手にあるオカヤマビル3F</p>
+                    <p>③「源吉兆庵本社前」を左折し、右手のアクタスビル3Fへ</p>
                 </div>
                 <div>
                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciAccess4.jpg" alt=""></div>

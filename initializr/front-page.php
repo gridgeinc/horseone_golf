@@ -277,6 +277,7 @@
                                 <p class="en bold600 fsM4 lh_s">グループ<br>レッスン<br>可能</p>
                             </a>
                             <a href="<?= home_url(); ?>/facility/#faciSecret-3" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility2-btn3.jpg);">
+                                <p class="en bold600 fsS">ジョイゴルフ スマートプラス</p>
                                 <p class="en bold600 fsM3">JoyGolf smart+</p>
                                 <p class="lh_m">スイングの骨格を自動分析し、<br>打球の軌道やヘッドの動きを再現</p>
                             </a>
@@ -295,10 +296,12 @@
                         <p class="mbM3 lh_xl">完全個室のプライベートルームでは、TRACKMANやSLAPなどの最先端機器によって、フォームやクラブ選びを数値で可視化します。600本近くのシャフトを試打でき、フィッティング結果に基づいて、クラフトマンが最適な1本を組み立てます。</p>
                         <div class="facilityBtnWrap --col2 mbS">
                             <a href="<?= home_url(); ?>/facility/#faciPrivate-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility3-btn1.jpg);">
+                                <p class="en bold600 fsS">トラックマン</p>
                                 <p class="en bold600 fsM3">TRACKMAN</p>
                                 <p>軍用技術から生まれた精密解析</p>
                             </a>
                             <a href="<?= home_url(); ?>/facility/#faciPrivate-2" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility3-btn2.jpg);">
+                                <p class="en bold600 fsS">スラップ</p>
                                 <p class="en bold600 fsM3">SLAP</p>
                                 <p>スイング負荷を数値化する新発想</p>
                             </a>
@@ -521,38 +524,38 @@
                             <th></th>
                             <th class="text-center">入会金</th>
                             <th class="text-center">月会費</th>
-                            <th class="text-center">内容</th>
+                            <!-- <th class="text-center">内容</th> -->
                         </tr>
                     </thead>
                     <tr>
                         <th>プレミアム会員</th>
                         <td class="text-center">1,100<span class="enS">円</span></td>
                         <td class="text-center">17,600<span class="enS">円</span></td>
-                        <td>プライベートルーム利用OK</td>
+                        <!-- <td>プライベートルーム利用OK</td> -->
                     </tr>
                     <tr>
                         <th>ミドル会員</th>
                         <td class="text-center">1,100<span class="enS">円</span></td>
                         <td class="text-center">6,600<span class="enS">円</span></td>
-                        <td>オープン打席利用OK</td>
+                        <!-- <td>オープン打席利用OK</td> -->
                     </tr>
                     <tr>
                         <th>学生会員（18歳以下）</th>
                         <td class="text-center">―</td>
                         <td class="text-center">3,300<span class="enS">円</span></td>
-                        <td>学生向け特別プラン</td>
+                        <!-- <td>学生向け特別プラン</td> -->
                     </tr>
                     <tr>
                         <th>ジュニア会員（13歳未満）</th>
                         <td class="text-center">―</td>
                         <td class="text-center">1,100<span class="enS">円</span></td>
-                        <td>ジュニア特別プラン</td>
+                        <!-- <td>ジュニア特別プラン</td> -->
                     </tr>
                     <tr>
                         <th>ビジター会員</th>
                         <td class="text-center">1,100<span class="enS">円</span></td>
                         <td class="text-center">―</td>
-                        <td>ビジタープラン</td>
+                        <!-- <td>ビジタープラン</td> -->
                     </tr>
                 </table>
             </div>
