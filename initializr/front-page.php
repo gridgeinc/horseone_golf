@@ -244,14 +244,16 @@
                     <div class="relative">
                         <h3 class="mainColor bold600 fsL35 lh_m mbS mbSpM3">パター練習エリア</h3>
                         <p class="bold600 fsM2 lh_m mbS mbSpS3">感覚と数値、両方から見直せる“パター専用ゾーン”</p>
-                        <p class="mbM3 lh_xl">パター一打の精度がスコアを大きく左右するからこそ、感覚任せではなく、見える化された練習が必要です。TOURPUTT360とパットラボ（SAM PuttLab）を活用し、「理由ある改善」に取り組みます。</p>
+                        <p class="mbM3 lh_xl">パター一打の精度がスコアを大きく左右するからこそ、感覚任せではなく、見える化された練習が必要です。TOURPUTT Circleとパットラボ（SAM PuttLab）を活用し、「理由ある改善」に取り組みます。</p>
                         <div class="facilityBtnWrap --col2 mbS">
                             <a href="<?= home_url(); ?>/facility/#faciPutter-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn1.jpg);">
+                                <p class="en bold600 fsS">ツアーパット・サークル</p>
                                 <p class="en bold600 fsM3">TOURPUTT Circle</p>
                                 <p>傾斜も再現するパター練習</p>
                             </a>
                             <a href="<?= home_url(); ?>/facility/#faciPutter-2" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn2.jpg);">
-                                <p class="en bold600 fsM3 lh_s">パットラボ<br>（SAM PuttLab）</p>
+                                <p class="en bold600 fsS">パットラボ</p>
+                                <p class="en bold600 fsM3 lh_s">SAM PuttLab</p>
                                 <p>ストロークのクセを見える化</p>
                             </a>
                         </div>
@@ -290,7 +292,7 @@
                     <div class="relative">
                         <h3 class="mainColor bold600 fsL35 lh_m mbS mbSpM3">プライベートルーム</h3>
                         <p class="bold600 fsM2 lh_m mbS mbSpS3">精密データと静寂空間で、<br>理想の1本と出会う</p>
-                        <p class="mbM3 lh_xl">完全個室のプライベートルームでは、トラックマンやSLAPなどの最先端機器によって、フォームやクラブ選びを数値で可視化します。600本近くのシャフトを試打でき、フィッティング結果に基づいて、クラフトマンが最適な1本を組み立てます。</p>
+                        <p class="mbM3 lh_xl">完全個室のプライベートルームでは、TRACKMANやSLAPなどの最先端機器によって、フォームやクラブ選びを数値で可視化します。600本近くのシャフトを試打でき、フィッティング結果に基づいて、クラフトマンが最適な1本を組み立てます。</p>
                         <div class="facilityBtnWrap --col2 mbS">
                             <a href="<?= home_url(); ?>/facility/#faciPrivate-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility3-btn1.jpg);">
                                 <p class="en bold600 fsM3">TRACKMAN</p>
@@ -317,7 +319,7 @@
             </div>
             <h3 class="text-center bold600 fsL5 lh_m mbS3">すべての一打に根拠を。<br>上達のための測定と可視化環境</h3>
             <div class="cntS">
-                <p class="text-center text-left-sp mbS">ホースワンでは、スイング・パッティング・クラブ選びのすべてにおいて、数値と映像による“見える化”を実現。<br>SLAPやトラックマン、TOURPUTT360といった最先端機材を活用し、感覚だけでは届かなかった「変化の理由」がわかる環境を整えています。<br>
+                <p class="text-center text-left-sp mbS">ホースワンでは、スイング・パッティング・クラブ選びのすべてにおいて、数値と映像による“見える化”を実現。<br>SLAPやTRACKMAN、TOURPUTT Circleといった最先端機材を活用し、感覚だけでは届かなかった「変化の理由」がわかる環境を整えています。<br>
                     プロにしかできなかった調整や分析が、全てのプレーヤーの身近な選択肢に。<br>ゴルフとの向き合い方に、確かな根拠と上達の手応えが生まれます。
                 </p>
             </div>

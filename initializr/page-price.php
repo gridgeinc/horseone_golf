@@ -12,7 +12,7 @@
     <div class="cnt">
         <div class="cntM">
             <ul class="guide">
-                <li><a href="#price" class="cmnbtn"><span>料金プラン</span></a></li>
+                <!-- <li><a href="#price" class="cmnbtn"><span>料金プラン</span></a></li> -->
                 <li><a href="#priceCoaching" class="cmnbtn"><span>インストラクター紹介</span></a></li>
                 <li><a href="#priceFlow" class="cmnbtn"><span>入会の流れ</span></a></li>
                 <li><a href="#priceFaq" class="cmnbtn"><span>よくあるご質問</span></a></li>
@@ -20,7 +20,7 @@
         </div>
     </div>
 </div>
-<section id="price">
+<!-- <section id="price">
     <div class="cnt padding">
         <div class="cntM">
             <div class="ttlWrap text-center mbS">
@@ -316,7 +316,7 @@
                 • レッスン当日キャンセル：1,100円　　（※90分以上のレッスンは 2,200円）</p>
         </div>
     </div>
-</section>
+</section> -->
 <section id="priceCoaching">
     <div class="coachingBg padding pt0">
         <div class="cnt padding" data-aos="fade">

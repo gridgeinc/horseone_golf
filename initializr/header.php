@@ -83,13 +83,13 @@
                 <div class="headerMenuLeft">
                     <div class="headerMenuLeftTop">
                         <?= get_template_part('parts/assets/snsblock'); ?>
-                        <a href="tel:<?php info('telNotHy'); ?>" class="headerTel">
+                        <!-- <a href="tel:<?php info('telNotHy'); ?>" class="headerTel">
                             <div class="img"></div>
                             <div class="txt">
                                 <div class="num"><?php info('tel'); ?></div>
                                 <div class="open">［受付時間］<?php info('time'); ?></div>
                             </div>
-                        </a>
+                        </a> -->
                         <a href="<?= info('login'); ?>" target="_blank" class="headerLogin">打席予約ログイン</a>
                         <a href="<?= home_url(); ?>/contact" class="headerContact">ご相談・お問い合わせ</a>
                     </div>

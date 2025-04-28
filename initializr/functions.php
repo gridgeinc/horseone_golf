@@ -332,7 +332,7 @@ function info($info)
     } elseif ($info == "gmap") {
         echo "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5755581106027!2d133.91455777619737!3d34.665420585104314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554064d06be93f9%3A0x34c236c25526cff3!2z44CSNzAwLTAwMjQg5bKh5bGx55yM5bKh5bGx5biC5YyX5Yy66aeF5YWD55S6!5e0!3m2!1sja!2sjp!4v1744702978555!5m2!1sja!2sjp";
     } elseif ($info == "gmapIframe") {
-        echo '';
+        echo '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5055.639210070962!2d133.91640541173294!3d34.66218664048634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355407b4a5e8bd0d%3A0xb46157f7b6d58ac5!2z44CSNzAwLTA5MDMg5bKh5bGx55yM5bKh5bGx5biC5YyX5Yy65bm455S677yX4oiS77yS77yQIOOCouOCr-OCv-OCueODk-ODqyAzZg!5e0!3m2!1sja!2sjp!4v1745805755550!5m2!1sja!2sjp" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
     } elseif ($info == "time") {
         echo "10:00〜21:00";
     } elseif ($info == "holiday") {

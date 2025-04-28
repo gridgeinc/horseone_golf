@@ -19,7 +19,7 @@ get_header();
             <p class="text-center mbS">
                 ご入会・無料体験のお申し込みは<br class="sp">下記フォームから受け付けております。<br>お気軽にお問い合わせください。
             </p>
-            <div class="mbM">
+            <!-- <div class="mbM">
                 <a href="tel:<?php info('telNotHy'); ?>" class="contactTel telLink">
                     <div><img src="<?php echo get_template_directory_uri(); ?>/img/ic-tel-green-wh.svg" alt="" width="45"></div>
                     <div class="text">
@@ -27,7 +27,7 @@ get_header();
                         <p>［受付時間］<?php info('time'); ?></p>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
 
 
