@@ -365,7 +365,7 @@
                         <div class="dounyu">中国地方<br><span>初導入</span></div>
                         <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/topPatting1.jpg" alt=""></div>
                         <p class="text-center bold600">傾斜も再現するパター練習</p>
-                        <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">TOURPUTT Circle｜<br>ツアーパット・サイクル</h4>
+                        <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">TOURPUTT Circle｜<br>ツアーパット・サークル</h4>
                         <p>傾斜・方向・距離の違いを組み合わせた36通りのラインを再現。リアルな転がりを体感しながら、実戦力を養えるシステムです。 </p>
                     </a>
                     <a href="<?php echo home_url('facility/#faciPutter-2'); ?>" class="equipItem">

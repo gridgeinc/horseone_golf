@@ -167,7 +167,7 @@
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
-                                    <div class="ttl bgMainColor white bold600 fsM3 text-center lh_s">TOURPUTT Circle｜<br>ツアーパット・サイクル</div>
+                                    <div class="ttl bgMainColor white bold600 fsM3 text-center lh_s">TOURPUTT Circle｜<br>ツアーパット・サークル</div>
                                     <div class="txt">
                                         <p class="bold600 text-center">傾斜も再現するパター練習</p>
                                         <p class="bold600 fsM3 text-center lh_m mbS2 ls_m">36パターンのラインを攻略</p>
@@ -574,7 +574,7 @@
                 </div>
                 <div>
                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciAccess2.jpg" alt=""></div>
-                    <p>②桃太郎大通りを東へ直進（約7分）</p>
+                    <p>②桃太郎大通りを南へ直進（約7分）</p>
                 </div>
                 <div>
                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciAccess3.jpg" alt=""></div>
