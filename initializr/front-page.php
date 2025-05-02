@@ -244,7 +244,7 @@
                     <div class="relative">
                         <h3 class="mainColor bold600 fsL35 lh_m mbS mbSpM3">パター練習エリア</h3>
                         <p class="bold600 fsM2 lh_m mbS mbSpS3">感覚と数値、両方から見直せる“パター専用ゾーン”</p>
-                        <p class="mbM3 lh_xl">パター一打の精度がスコアを大きく左右するからこそ、感覚任せではなく、見える化された練習が必要です。TOURPUTT Circleとパットラボ（SAM PuttLab）を活用し、「理由ある改善」に取り組みます。</p>
+                        <p class="mbM3 lh_xl">パター一打の精度がスコアを大きく左右するからこそ、感覚任せではなく、見える化された練習が必要です。TOURPUTT CircleとSAM PuttLabを活用し、「理由ある改善」に取り組みます。</p>
                         <div class="facilityBtnWrap --col2 mbS">
                             <a href="<?= home_url(); ?>/facility/#faciPutter-1" class="facilityBtn --dounyuu" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/topFacility1-btn1.jpg);">
                                 <p class="en bold600 fsS">ツアーパット・サークル</p>

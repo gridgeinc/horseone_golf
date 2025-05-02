@@ -144,7 +144,7 @@
                             <div class="txt">
                                 <h3 class="bold600 mainColor fsL35 lh_m mbS">パター練習エリア</h3>
                                 <p class="bold600 fsM12 lh_m mbS2">感覚と数値、両方から見直せる<br>“パター専用ゾーン”</p>
-                                <p class="lh_xl mbM3">パター1打の精度がスコアを大きく左右するからこそ、感覚任せではなく、見える化された練習が必要です。TOURPUTT Circleとパットラボ（SAM PuttLab）を活用し、「理由ある改善」に取り組みます。</p>
+                                <p class="lh_xl mbM3">パター1打の精度がスコアを大きく左右するからこそ、感覚任せではなく、見える化された練習が必要です。TOURPUTT CircleとSAM PuttLabを活用し、「理由ある改善」に取り組みます。</p>
                                 <ul class="checkList fsM4 bold600--all">
                                     <li><span>TOURPUTT Circleで全方位からの<span class="mainColor">「転がりのクセ」</span>を可視化</span></li>
                                     <li><span>パットラボで<span class="mainColor">「打ち方のクセ」</span>を数値化</span></li>

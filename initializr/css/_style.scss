@@ -92,6 +92,23 @@ main {
   writing-mode: vertical-rl;
 }
 
+// gap
+@for $i from 1 through 10 {
+  .gap#{$i * 10}-col {
+    column-gap: #{$i * 10}px;
+    @include tab {
+      column-gap: #{$i * 5}px;
+    }
+  }
+}
+@for $i from 1 through 10 {
+  .gapSp#{$i * 10}-col {
+    @include sp {
+      column-gap: #{$i * 10}px;
+    }
+  }
+}
+
 // loading
 
 // タイトル

@@ -80,12 +80,9 @@
                     <?php info('gmapIframe'); ?>
                 </div>
             </div>
-            <ul class="footerMenu mbS">
-                <?= get_template_part('parts/assets/menu'); ?>
-                <li>
-                    <a href="<?= info('login'); ?>" target="_blank">打席予約ログイン</a>
-                </li>
-            </ul>
+
+            <?= get_template_part('parts/assets/footer_menu'); ?>
+
         </div>
     </div>
     <p class="copyright">copyright Horse One Golf Studio co.,ltd. All right reserved.</p>
