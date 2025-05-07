@@ -104,7 +104,10 @@
                 </div>
             </div>
             <div class="faciFeatureItem mbM3" id="feature6">
-                <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciFeature6.jpg" alt=""></div>
+                <div class="img" data-aos="fade">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/faciFeature6.jpg" alt="" class="pc">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/faciFeature6_sp.jpg" alt="" class="sp">
+                </div>
                 <div class="txt bgMainColor" data-aos="fade">
                     <div class="inter mbS white">Feature.06</div>
                     <p class="bold600 fsM15 lh_m15 ls_m white mbS2">2025年5月オープン。<br>最新の環境で、快適にゴルフを楽しめる</p>
@@ -161,9 +164,6 @@
                                     <div class="img">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter3.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter3.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter3.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter3.jpg" alt=""></div>
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
@@ -177,9 +177,6 @@
                                 <div class="faciStyleIntroItem relative" id="faciPutter-2">
                                     <div class="img">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter4.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter4.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter4.jpg" alt=""></div>
                                             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter4.jpg" alt=""></div>
                                         </div>
                                         <div class="swiper-pagination"></div>
@@ -212,12 +209,12 @@
                                                 </div>
                                                 <div>
                                                     <div class="num">Point<span>03</span></div>
-                                                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutterPoint1.jpg" alt=""></div>
+                                                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutterPoint3.jpg" alt=""></div>
                                                     <p class="lh_m">正確なストロークを目で見て確認できる</p>
                                                 </div>
                                                 <div>
                                                     <div class="num">Point<span>04</span></div>
-                                                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutterPoint2.jpg" alt=""></div>
+                                                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutterPoint4.jpg" alt=""></div>
                                                     <p class="lh_m">練習ごとに「できた実感」が得られる</p>
                                                 </div>
                                             </div>
@@ -283,9 +280,6 @@
                                 <div class="faciStyleIntroItem relative" id="faciPutter-1">
                                     <div class="img">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciSecret6.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciSecret6.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciSecret6.jpg" alt=""></div>
                                             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciSecret6.jpg" alt=""></div>
                                         </div>
                                         <div class="swiper-pagination"></div>
@@ -393,9 +387,6 @@
                                     <div class="img">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate3.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate3.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate3.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate3.jpg" alt=""></div>
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
@@ -410,9 +401,6 @@
                                     <div class="dounyu z-2">西日本<br><span>初導入</span></div>
                                     <div class="img">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate4.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate4.jpg" alt=""></div>
-                                            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate4.jpg" alt=""></div>
                                             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivate4.jpg" alt=""></div>
                                         </div>
                                         <div class="swiper-pagination"></div>
@@ -430,7 +418,7 @@
                             <div class="cntM">
                                 <div class="faciStylePoint">
                                     <p class="bold600 fsM2 text-center lh_m ttl mbS mbSpM2 ls_l">
-                                        パーソナル強化に特化した<span class="mainColor bold600 inter fsL2 lh_s">5</span>つのポイント
+                                        パーソナル強化に特化した<br class="sp"><span class="mainColor bold600 inter fsL2 lh_s">5</span>つのポイント
                                     </p>
                                     <div class="cnt">
                                         <div class="cntS">
@@ -457,7 +445,7 @@
                                                 </div>
                                                 <div>
                                                     <div class="num">Point<span>05</span></div>
-                                                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivatePoint4.jpg" alt=""></div>
+                                                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPrivatePoint5.jpg" alt=""></div>
                                                     <p class="lh_m">完全個室で、集中力を高めながらじっくりトレーニングに取り組める</p>
                                                 </div>
                                             </div>
@@ -512,7 +500,7 @@
                 $amenities = [
                     [
                         'img' => 'faciAmenities1.jpg',
-                        'title' => 'いつでも快適。<br>駅チカ＆天候に左右されない<br>練習環境',
+                        'title' => 'いつでも快適。<br>駅チカ＆天候に左右されない<br class="pc">練習環境',
                         'text'  => '<ul class="dot">
                         <li>・岡山駅から徒歩約7分。仕事帰りや空いた時間にも通いやすい立地</li>
                         <li>・冷暖房完備の室内空間で、雨や気温を気にせず一年中快適にプレイ</li>
@@ -528,7 +516,7 @@
                     ],
                     [
                         'img' => 'faciAmenities3.jpg',
-                        'title' => 'スタッフ常駐で、<br>初めての方も安心サポート',
+                        'title' => 'スタッフ常駐で、<br>初めての方も<br class="sp">安心サポート',
                         'text'  => '<ul class="dot">
                         <li>・道具の使い方から丁寧にサポート。ゴルフ未経験でも楽しめます</li>
                         <li>・練習方法やクラブの選び方など、目的に合ったアドバイスが受けられます</li>

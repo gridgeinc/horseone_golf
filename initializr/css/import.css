@@ -4984,9 +4984,6 @@ header {
   padding: 0 0.8em;
   font-weight: 500 !important;
 }
-.scrl .headerMenuLeftBottom li a .page .headerMenuLeftBottom li a {
-  text-shadow: none;
-}
 @media only screen and (max-width: 1200px) {
   .headerMenuLeftBottom li a {
     font-size: 14px;
@@ -5095,6 +5092,7 @@ header {
   }
   header.scrl .headerMenuLeftBottom li a, header.page .headerMenuLeftBottom li a {
     color: #1b1b1b;
+    text-shadow: none;
   }
   header.scrl .headerMenuLeftBottom li a:hover, header.page .headerMenuLeftBottom li a:hover {
     opacity: 1;
@@ -6779,6 +6777,39 @@ ul.topNewsList li {
   }
 }
 
+#other {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-inline: 20px;
+}
+
+.otherInstructorSlide {
+  overflow: hidden;
+}
+
+.otherInstructorBlock .swiper-button-next,
+.otherInstructorBlock .swiper-button-prev {
+  width: 35px;
+  background: url(../img/ic-arw-special.svg) no-repeat center/contain;
+}
+.otherInstructorBlock .swiper-button-next::after,
+.otherInstructorBlock .swiper-button-prev::after {
+  content: none;
+}
+@media only screen and (max-width: 767px) {
+  .otherInstructorBlock .swiper-button-next,
+  .otherInstructorBlock .swiper-button-prev {
+    width: 30px;
+  }
+}
+.otherInstructorBlock .swiper-button-next {
+  right: 0;
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+.otherInstructorBlock .swiper-button-prev {
+  left: 0;
+}
+
 .merit .ttl {
   position: relative;
   width: -webkit-fit-content;
@@ -7009,10 +7040,17 @@ ul.topNewsList li {
 .cmnTable td:not(.text-center) {
   text-align: left;
 }
+@media only screen and (max-width: 767px) {
+  .cmnTable th,
+  .cmnTable td {
+    padding: 0.4em 1em;
+  }
+}
 .cmnTable th {
   background-color: var(--mainColor);
   color: #fff;
   font-weight: 600 !important;
+  width: 300px;
 }
 .cmnTable thead tr th {
   text-align: center;
@@ -7123,6 +7161,7 @@ ul.topNewsList li {
 }
 @media only screen and (max-width: 767px) {
   .otherpageFlex > * {
+    height: 135px;
     width: 100%;
   }
 }

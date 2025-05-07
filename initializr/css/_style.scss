@@ -331,10 +331,6 @@ header {
       text-shadow: 2px 2px 12px rgba(0,0,0,0.18);
       padding: 0 0.8em;
       @include bold500;
-      .scrl &
-      .page & {
-        text-shadow: none;
-      }
       @include note {
         font-size: 14px;
         padding-inline: 0.5em;
@@ -409,6 +405,7 @@ header {
       }
       .headerMenuLeftBottom li a {
         color: $black;
+        text-shadow: none;
         &:hover {
           opacity: 1;
           color: $mainColor;
@@ -1651,6 +1648,35 @@ ul.topNewsList {
     }
   }
 }
+#other {
+  background-color: rgba(#fff, 0.9);
+  padding-inline: 20px;
+}
+.otherInstructorSlide {
+  overflow: hidden;
+}
+.otherInstructorBlock {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 35px;
+    background: url(../img/ic-arw-special.svg) no-repeat center/contain;
+    &::after {
+      content: none;
+    }
+    @include sp {
+      width: 30px;
+    }
+  }
+  .swiper-button-next {
+    right: 0;
+    transform: scale(-1, 1);
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+}
+
+
 .merit {
   .ttl {
     position: relative;
@@ -1804,11 +1830,15 @@ ul.topNewsList {
     &:not(.text-center) {
       text-align: left;
     }
+    @include sp {
+      padding: 0.4em 1em;
+    }
   }
   th {
     background-color: $mainColor;
     color: #fff;
     @include bold600;
+    width: 300px;
   }
   thead {
     tr {
@@ -1895,6 +1925,7 @@ ul.topNewsList {
     justify-content: center;
     flex-direction: column;
     @include sp {
+      height: 135px;
       width: 100%;
     }
   }

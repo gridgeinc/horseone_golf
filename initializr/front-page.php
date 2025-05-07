@@ -17,9 +17,10 @@
                 </div>
             </a>
         </div>
-
     </div>
 </section>
+
+
 <div class="bgSpecial">
     <div class="bgSpecialIn"></div>
     <section id="special">
@@ -190,7 +191,7 @@
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature2.jpg" alt=""></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.02</div>
-                        <p class="fsM32 bold600 lh_m ls_m">AI×最先端測定で、<br>“なんとなく”を卒業する</p>
+                        <p class="fsM32 bold600 lh_m ls_m">AI×最先端測定で、<br class="pc">“なんとなく”を卒業する</p>
                     </div>
                 </a>
                 <a href="<?= home_url(); ?>/facility/#feature3" class="featureBoxItem">
@@ -500,6 +501,115 @@
                 </div>
             </div>
         </div>
+
+
+
+
+        <div class="cnt cntL otherInstructorBlock relative">
+            <div class="otherInstructorSlide">
+                <div class="swiper-wrapper">
+                    <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
+                        <div class="cntS">
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <div class="commentFlex">
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide1.jpg" alt=""></div>
+                                <div class="text ls_l">
+                                    <div class="name mbS2 flex cg1em alignCenter">
+                                        <p class="ja bold600 fsM15 lh_m">富永 暁登</p>
+                                        <p class="en mainColor">Akito Tominaga</p>
+                                    </div>
+                                    <div class="instInfo mbS">
+                                        <dl class="mbS2">
+                                            <dt>得意分野</dt>
+                                            <dd class="fsS">
+                                                <p class="mbS2">パター／再現性の高いスイングづくり</p>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <p class="bold600 fsM2 lh_m mbS mbSpS32 ls_m">上達の近道は、楽しみながら<br class="pc">“繰り返せる動き”を身につけること</p>
+                                    <p class="lh_xl mbS">
+                                        トラックマンをはじめ、ホースワンには精密にフォームを確認できる設備が揃っています。パター練習に特化したエリアもあるので、「感覚だけじゃなくて数字でも理解したい」という方にぴったりです。上手くなるには“楽しく続けられる”ことが一番。一緒に再現性のあるスイングをつくっていきましょう！
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
+                        <div class="cntS">
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <div class="commentFlex">
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide2.jpg" alt=""></div>
+                                <div class="text ls_l">
+                                    <div class="name mbS2 flex cg1em alignCenter">
+                                        <p class="ja bold600 fsM15 lh_m">安本 美咲</p>
+                                        <p class="en mainColor">Misaki Yasumoto</p>
+                                    </div>
+                                    <div class="instInfo mbS">
+                                        <dl class="mbS2">
+                                            <dt>得意分野</dt>
+                                            <dd class="fsS">
+                                                <p class="mbS2">100ヤード以内／やさしいスイングづくり</p>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <p class="bold600 fsM2 lh_m mbS mbSpS32 ls_m">スコアアップの近道は、“自分に合ったスイング”</p>
+                                    <p class="lh_xl mbS">
+                                        ホースワンの魅力は、スイングを数値で見える化できること。機材を活用して、お客様にとって「一番いいスイング」を一緒に見つけていきます。難しく考えすぎず、楽しみながら、確実にステップアップしていきましょう。短い距離の精度を上げたい方、スコアアップを目指す方もお待ちしています！
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
+                        <div class="cntS">
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <div class="commentFlex">
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide3.jpg" alt=""></div>
+                                <div class="text ls_l">
+                                    <div class="name mbS2 flex cg1em alignCenter">
+                                        <p class="ja bold600 fsM15 lh_m">花下 苺</p>
+                                        <p class="en mainColor">Ichigo Hanashita</p>
+                                    </div>
+                                    <div class="instInfo mbS">
+                                        <dl class="mbS2">
+                                            <dt>得意分野</dt>
+                                            <dd class="fsS">
+                                                <p class="mbS2">ピンを狙うショット／体の使い方指導</p>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <p class="bold600 fsM2 lh_m mbS mbSpS32 ls_m">女性の悩みに寄り添いながら、<br class="pc">アグレッシブに上達</p>
+                                    <p class="lh_xl mbS">
+                                        ツアーパッドなどの最新設備で、パターを細かく分析できるのがホースワンの魅力です。筋肉や身体の使い方を学んできた経験を活かして、ヘッドスピードや体格に合わせた無理のないアドバイスを行っています。女性の方も気軽に来てくださいね。一緒にピンを狙っていきましょう！
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+        <script>
+            const otherInst = new Swiper('.otherInstructorSlide', {
+                loop: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
+                centeredSlides: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+
+
         <div class="paddingS pt0">
             <div class="text-center" data-aos="fade">
                 <a href="" class="cmnbtn --white --center --spL"><span>レッスンを予約する</span></a>
