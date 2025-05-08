@@ -562,7 +562,7 @@
                         STEP<span>03</span>
                     </div>
                     <div class="txtBlock">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow4.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow3.png" alt=""></div>
                         <div class="txt">
                             <p class="bold600 fsM2 mbS2 lh_m">ご予約</p>
                             <p class="mbM3">ご入会後は、専用の予約サイトからレッスンや練習のご予約が可能です。<br>完全予約制のため、待ち時間なくご利用いただけます。</p>
@@ -575,7 +575,7 @@
                         STEP<span>04</span>
                     </div>
                     <div class="txtBlock">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow3.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow4.png" alt=""></div>
                         <div class="txt">
                             <p class="bold600 fsM2 mbS2 lh_m">プレイ開始</p>
                             <p class="">初回は施設の使い方やシミュレーターの操作方法をご説明します。<br>

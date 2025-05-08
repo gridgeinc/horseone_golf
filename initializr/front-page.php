@@ -10,7 +10,7 @@
             </div>
         </div>
         <!-- ダミースライド ------- -->
-        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
             <div class="in">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/topFeature4.jpg" alt="">
             </div>
@@ -19,7 +19,7 @@
             <div class="in">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/topConcept1.jpg" alt="">
             </div>
-        </div>
+        </div> -->
         <!--  ------- ダミースライド -->
     </div>
     <div class="swiper-pagination"></div>

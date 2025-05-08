@@ -27,10 +27,10 @@
         <th>駐車場</th>
         <td>3台無料駐車場あり</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <th>店名</th>
         <td>Horse One Golf Studio</td>
-    </tr>
+    </tr> -->
     <tr>
         <th>お支払い</th>
         <td>各種クレジットカード対応</td>
