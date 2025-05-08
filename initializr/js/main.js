@@ -280,17 +280,45 @@ $(function () {
   $(".matchHeight").matchHeight();
 });
 
+// MV .bg作成
+$(function () {
+  $(".mvSlide .swiper-slide").each(function () {
+    const $img = $(this).find(".in img");
+    const $outer = $(this).find(".outer");
+
+    // 複製して .bg クラスをつけて prepend
+    const $bgImg = $img.clone().addClass("bg").removeAttr("alt");
+    $outer.prepend($bgImg);
+  });
+});
+
 // MV
 $(function () {
-  const $img = $('img[src$="mv.jpg"]');
+  const $imgs = $(".mvIn img"); // mvIn内のすべてのimg要素
+  let loadedCount = 0;
+  const total = $imgs.length;
 
-  if ($img[0].complete) {
-    // すでに読み込み済みの場合
+  if (total === 0) {
+    // 画像が存在しない場合も即発火
     $(".fvTxt").addClass("active");
-  } else {
-    // 読み込み後に実行
-    $img.on("load", function () {
-      $(".fvTxt").addClass("active");
-    });
+    return;
+  }
+
+  $imgs.each(function () {
+    if (this.complete) {
+      loadedCount++;
+    } else {
+      $(this).on("load", function () {
+        loadedCount++;
+        if (loadedCount === total) {
+          $(".fvTxt").addClass("active");
+        }
+      });
+    }
+  });
+
+  // すでにすべて読み込まれていた場合
+  if (loadedCount === total) {
+    $(".fvTxt").addClass("active");
   }
 });

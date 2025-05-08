@@ -1,28 +1,75 @@
 <?php get_header(); ?>
 <section id="mv">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <div class="in">
-                <picture>
-                    <source media="(max-width: 640px)" srcset="<?php echo get_template_directory_uri(); ?>/img/mv--sp.jpg">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/mv.jpg" alt="">
-                </picture>
+<div class="mvWrap">
+        <div class="mvIn">
+            <div class="mvSlide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="outer">
+                            <div class="in">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="outer">
+                            <div class="in">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="outer">
+                            <div class="in">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="outer">
+                            <div class="in">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- ダミースライド ------- -->
-        <!-- <div class="swiper-slide">
-            <div class="in">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/topFeature4.jpg" alt="">
+        <div class="mvIn">
+            <div class="mvSlide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="outer">
+                            <div class="in">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="outer">
+                            <div class="in">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="outer">
+                            <div class="in">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="outer">
+                            <div class="in">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="swiper-slide">
-            <div class="in">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/topConcept1.jpg" alt="">
-            </div>
-        </div> -->
-        <!--  ------- ダミースライド -->
     </div>
-    <div class="swiper-pagination"></div>
 
     <div class="fvTxt z-1">
         <div class="div">
@@ -40,16 +87,14 @@
 </section>
 
 <script>
-    const mv = new Swiper('#mv', {
+    const mv = new Swiper('.mvSlide', {
         loop: true,
         slidesPerView: 1,
         effect: 'fade',
         speed: 1500,
+        allowTouchMove: false,
         autoplay: {
             delay: 5000,
-        },
-        pagination: {
-            el: '.swiper-pagination',
         },
     });
 </script>
