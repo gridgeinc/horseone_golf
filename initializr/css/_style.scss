@@ -328,7 +328,7 @@ header {
   color: #fff;
   li {
     a {
-      text-shadow: 2px 2px 12px rgba(0,0,0,0.18);
+      text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.18);
       padding: 0 0.8em;
       @include bold500;
       @include note {
@@ -736,7 +736,7 @@ footer {
   justify-content: space-between;
   a {
     @include bold600;
-    transition: .3s;
+    transition: 0.3s;
     &:hover {
       color: $mainColor;
     }
@@ -834,10 +834,26 @@ footer {
 *================================================*/
 #mv {
   position: relative;
-  @include sp {
-    aspect-ratio: 390 / 550;
+  .in {
+    aspect-ratio: 1316 / 822;
     img {
       @include img-fit();
+    }
+  }
+  @include sp {
+    .in {
+      aspect-ratio: 390 / 550;
+    }
+    img {
+      @include img-fit();
+    }
+  }
+  .swiper-pagination {
+    .swiper-pagination-bullet {
+      border-radius: 0;
+      &.swiper-pagination-bullet-active {
+        background-color: #fff;
+      }
     }
   }
 }
@@ -1346,7 +1362,7 @@ ul.topNewsList {
           grid-column: 1 / 3;
           grid-row: 2 / 2;
         }
-      } 
+      }
     }
     @include sp {
       flex-direction: row;
@@ -1462,10 +1478,10 @@ ul.topNewsList {
     line-height: 1;
     transform: translate(80%, -20%);
     letter-spacing: 0.03em;
-    @include sp { // add
+    @include sp {
+      // add
       font-size: 90px;
       right: 40px;
-
     }
   }
 }
@@ -1675,7 +1691,6 @@ ul.topNewsList {
     left: 0;
   }
 }
-
 
 .merit {
   .ttl {

@@ -1,11 +1,30 @@
 <?php get_header(); ?>
 <section id="mv">
-    <picture>
-        <source media="(max-width: 640px)" srcset="<?php echo get_template_directory_uri(); ?>/img/mv--sp.jpg">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/mv.jpg" alt="">
-    </picture>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="in">
+                <picture>
+                    <source media="(max-width: 640px)" srcset="<?php echo get_template_directory_uri(); ?>/img/mv--sp.jpg">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/mv.jpg" alt="">
+                </picture>
+            </div>
+        </div>
+        <!-- ダミースライド ------- -->
+        <div class="swiper-slide">
+            <div class="in">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/topFeature4.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="in">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/topConcept1.jpg" alt="">
+            </div>
+        </div>
+        <!--  ------- ダミースライド -->
+    </div>
+    <div class="swiper-pagination"></div>
 
-    <div class="fvTxt">
+    <div class="fvTxt z-1">
         <div class="div">
             <div class="fvLogo mbS2"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-fv.svg" alt="" width="160"></div>
             <p class="txt mbS2 ls_xl">データで発見、数値で変える<br>ゴルフがもっと楽しく、うまくなる</p>
@@ -20,6 +39,20 @@
     </div>
 </section>
 
+<script>
+    const mv = new Swiper('#mv', {
+        loop: true,
+        slidesPerView: 1,
+        effect: 'fade',
+        speed: 1500,
+        autoplay: {
+            delay: 5000,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
 
 <div class="bgSpecial">
     <div class="bgSpecialIn"></div>
