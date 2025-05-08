@@ -287,7 +287,11 @@ $(function () {
     const $outer = $(this).find(".outer");
 
     // 複製して .bg クラスをつけて prepend
-    const $bgImg = $img.clone().addClass("bg").removeAttr("alt");
+    const $bgImg = $img
+      .clone()
+      .addClass("bg")
+      .removeClass("swiper-img")
+      .removeAttr("alt");
     $outer.prepend($bgImg);
   });
 });

@@ -7,28 +7,28 @@
                     <div class="swiper-slide">
                         <div class="outer">
                             <div class="in">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide1.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide1.jpg" alt="" class="swiper-img">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="outer">
                             <div class="in">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide3.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide3.jpg" alt="" class="swiper-img">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="outer">
                             <div class="in">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide2.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide2.jpg" alt="" class="swiper-img">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="outer">
                             <div class="in">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide4.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide4.jpg" alt="" class="swiper-img">
                             </div>
                         </div>
                     </div>
@@ -41,28 +41,28 @@
                     <div class="swiper-slide">
                         <div class="outer">
                             <div class="in">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide2.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide2.jpg" alt="" class="swiper-img">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="outer">
                             <div class="in">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide4.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide4.jpg" alt="" class="swiper-img">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="outer">
                             <div class="in">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide1.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide1.jpg" alt="" class="swiper-img">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="outer">
                             <div class="in">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide3.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/fvSlide3.jpg" alt="" class="swiper-img">
                             </div>
                         </div>
                     </div>

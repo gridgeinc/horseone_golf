@@ -5639,6 +5639,26 @@ footer {
 /*==================================================
  * トップページ
 *================================================*/
+@-webkit-keyframes zoomUp {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes zoomUp {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
 #mv {
   position: relative;
 }
@@ -5686,8 +5706,8 @@ footer {
 }
 #mv .outer .bg {
   -webkit-transform: scale(1.1);
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
   height: 100%;
   left: 0;
   position: absolute;
@@ -5696,6 +5716,7 @@ footer {
   width: 100%;
 }
 #mv .in {
+  overflow: hidden;
   position: relative;
   width: 67.188%;
   z-index: 1;
@@ -5712,13 +5733,15 @@ footer {
   object-fit: cover;
   width: 100%;
 }
-@media only screen and (max-width: 767px) {
-  #mv img {
-    -o-object-fit: cover;
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-  }
+#mv .swiper-slide-active .swiper-img,
+#mv .swiper-slide-duplicate-active .swiper-img,
+#mv .swiper-slide-prev .swiper-img {
+  -webkit-animation: zoomUp 7s linear 0s normal both;
+  animation: zoomUp 7s linear 0s normal both;
+}
+#mv .swiper-slide img {
+  height: auto;
+  width: 100%;
 }
 
 .fvTxt {
