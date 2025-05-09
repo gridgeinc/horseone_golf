@@ -312,7 +312,7 @@ function nskw_bcn_breadcrumb_title_filter($title, $type = null)
 function info($info)
 {
     if ($info == "name") {
-        echo "Horse One Golf Studio";
+        echo "Horse One Golf studio";
     } elseif ($info == "nameEng") {
         echo "";
     } elseif ($info == "ceo") {

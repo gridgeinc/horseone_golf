@@ -85,7 +85,7 @@
 
         </div>
     </div>
-    <p class="copyright">copyright Horse One Golf Studio co.,ltd. All right reserved.</p>
+    <p class="copyright">copyright Horse One Golf studio co.,ltd. All right reserved.</p>
 </footer>
 <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 

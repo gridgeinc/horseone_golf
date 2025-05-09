@@ -77,7 +77,7 @@
         <div class="headerInner">
             <a href="<?= home_url(); ?>" class="headerLogo">
                 <p class="logoTtl">岡山でインドアゴルフなら</p>
-                <h1 class="logo">horse One Golf studio</h1>
+                <h1 class="logo">Horse One Golf studio</h1>
             </a>
             <div class="headerMenu">
                 <div class="headerMenuLeft">

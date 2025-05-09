@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section id="mv">
-<div class="mvWrap">
+    <div class="mvWrap">
         <div class="mvIn">
             <div class="mvSlide">
                 <div class="swiper-wrapper">
@@ -246,8 +246,8 @@
 </div>
 <div class="txtSlide">
     <div class="c-text js-tick">
-        <div class="c-text__item js-tick-item">HORSE ONE GOLF STUDIO</div>
-        <div class="c-text__item js-tick-item">HORSE ONE GOLF STUDIO</div>
+        <div class="c-text__item js-tick-item">Horse One Golf studio</div>
+        <div class="c-text__item js-tick-item">Horse One Golf studio</div>
     </div>
 </div>
 <section id="feature">
@@ -783,13 +783,13 @@
                     </div>
                 </a>
 
-                <a href="<?= home_url(); ?>/price/#lesson5">
+                <!-- <a href="<?= home_url(); ?>/price/#lesson5">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson5.jpg" alt=""></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">コースレッスン<br class="sp">(9ホール)</p>
                         <p class="white text-center fsM35 lh_m">1<span class="enS">回</span>　10,000<span class="enS">円〜</span></p>
                     </div>
-                </a>
+                </a> -->
 
                 <a href="<?= home_url(); ?>/price/#lesson6">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson6.jpg" alt=""></div>

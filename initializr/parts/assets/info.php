@@ -29,7 +29,7 @@
     </tr>
     <!-- <tr>
         <th>店名</th>
-        <td>Horse One Golf Studio</td>
+        <td>Horse One Golf studio</td>
     </tr> -->
     <tr>
         <th>お支払い</th>

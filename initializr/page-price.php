@@ -88,7 +88,7 @@
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceSwing.jpg" alt=""></div>
                     <div class="txt">
                         <h3 class="mainColor bold600 lh_m fsL6 mbS3 ls_m">レッスン（通常）</h3>
-                        <p class="bold600 lh_m fsM2 mbS3">ススイングを整え、ショットの安定と再現性を高める</p>
+                        <p class="bold600 lh_m fsM2 mbS3">スイングを整え、ショットの安定と再現性を高める</p>
                         <ul class="checkList fsM4 bold600--all mbS subColor --normal">
                             <li><span>最新機器とプロの視点で、フォームのクセや改善点を可視化</span></li>
                             <li><span>一人ひとりの課題に応じて、基本から丁寧に指導します</span></li>
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="tableWrap">
-                    <table class="cmnTable --w100 --bgWhite">
+                    <table class="cmnTable --w100 --bgWhite mb10">
                         <thead>
                             <tr>
                                 <th class="text-center">コース</th>
@@ -126,6 +126,7 @@
                             </tr>
                         </tbody>
                     </table>
+                    <p class="fsS">※プレミアムに限り、VIPルーム利用可</p>
                 </div>
 
             </div>
@@ -241,7 +242,7 @@
                     </table>
                 </div>
             </div>
-            <div class="lessonplan mbS2" id="lesson5">
+            <!-- <div class="lessonplan mbS2" id="lesson5">
                 <div class="lessonplanMain mbS">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson5.jpg" alt=""></div>
                     <div class="txt">
@@ -275,7 +276,7 @@
                         </tbody>
                     </table>
                 </div>
-            </div>
+            </div> -->
             <div class="lessonplan mbS2" id="lesson6">
                 <div class="lessonplanMain mbS">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson6.jpg" alt=""></div>
