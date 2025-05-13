@@ -66,7 +66,7 @@
                         </tr>
                         <tr>
                             <th>ジュニア会員（13歳未満）</th>
-                            <td class="text-center">―</td>
+                            <td class="text-center">無料</td>
                             <td class="text-center">1,100<span class="enS">円</span></td>
                             <!-- <td>ジュニア特別プラン</td> -->
                         </tr>
@@ -110,7 +110,7 @@
                         <tbody>
                             <tr>
                                 <th>個別レッスン(60分)</th>
-                                <td class="text-center">4,500<span class="enS">円</span></td>
+                                <td class="text-center">4,400<span class="enS">円</span></td>
                                 <td class="text-center">―</td>
                                 <td class="text-center">―</td>
                                 <td class="text-center">―</td>
