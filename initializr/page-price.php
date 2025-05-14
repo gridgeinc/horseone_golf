@@ -60,7 +60,7 @@
                         </tr>
                         <tr>
                             <th>学生会員（18歳以下）</th>
-                            <td class="text-center">―</td>
+                            <td class="text-center">無料</td>
                             <td class="text-center">3,300<span class="enS">円</span></td>
                             <!-- <td>学生向け特別プラン</td> -->
                         </tr>
@@ -73,7 +73,7 @@
                         <tr>
                             <th>ビジター会員</th>
                             <td class="text-center">1,100<span class="enS">円</span></td>
-                            <td class="text-center">―</td>
+                            <td class="text-center">無料</td>
                             <!-- <td>ビジタープラン</td> -->
                         </tr>
                     </tbody>
