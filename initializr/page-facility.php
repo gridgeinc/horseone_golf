@@ -160,7 +160,7 @@
                         <div class="cntS mbM2 mbSpL4">
                             <div class="faciStyleIntroduce">
                                 <div class="faciStyleIntroItem relative" id="faciPutter-1">
-                                    <div class="dounyu z-2">西日本<br><span>初導入</span></div>
+                                    <div class="dounyu z-2">岡山県<br><span>初導入</span></div>
                                     <div class="img">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/img/faciPutter3.jpg" alt=""></div>

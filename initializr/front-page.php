@@ -441,7 +441,7 @@
                 <div class="equipFlex flex justBetween">
                     <div class="en">Putting</div>
                     <a href="<?php echo home_url('facility/#faciPutter-1'); ?>" class="equipItem">
-                        <div class="dounyu">中国地方<br><span>初導入</span></div>
+                        <div class="dounyu">岡山県<br><span>初導入</span></div>
                         <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/topPatting1.jpg" alt=""></div>
                         <p class="text-center bold600">傾斜も再現するパター練習</p>
                         <h4 class="bold600 fsM2 mainColor text-center mbS2 lh_m">TOURPUTT Circle｜<br>ツアーパット・サークル</h4>
