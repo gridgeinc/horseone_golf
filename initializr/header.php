@@ -106,7 +106,7 @@
                 </a>
             </div>
         </div>
-        <a href="tel:<?php info('telNotHy'); ?>" class="spTel"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-h-tel-sp.svg" alt=""></a>
+        <!-- <a href="tel:<?php info('telNotHy'); ?>" class="spTel"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-h-tel-sp.svg" alt=""></a> -->
         <button class="menu-btn" id="js__btn">
             <div class="menu-trigger" href="#">
                 <span></span>
@@ -121,7 +121,7 @@
                     <?= get_template_part('parts/assets/menu'); ?>
                 </ul>
                 <div class="spMenuItemWrap">
-                    <a href="tel:<?php info('tel'); ?>" class="spMenuItem --tel">
+                    <!-- <a href="tel:<?php info('tel'); ?>" class="spMenuItem --tel">
                         <p class="name">お電話はこちら</p>
                         <div class="flex">
                             <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-h-tel-green.svg" alt="" width="28"></div>
@@ -130,7 +130,7 @@
                                 <div class="open">［受付時間］10:00〜21:00</div>
                             </div>
                         </div>
-                    </a>
+                    </a> -->
                     <?= get_template_part('parts/assets/spMenuItem'); ?>
                 </div>
                 <div class="spMenuInfo">
