@@ -1,17 +1,16 @@
 <?php
 get_header();
 
-$pageName = [
-    'jp_ttl' => '404',
-    'en_ttl' => 'NOT FOUND',
-];
-
-$pageImg = [
-    'pageMainImg' => 'contactHeader.jpg',
-];
-
-get_template_part('parts/assets/page-fv', null, ['pageName' => $pageName, 'pageImg' => $pageImg]);
 ?>
+<div class="pageFv padding" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/fvContact.jpg)">
+    <div class="en fsL3">404</div>
+    <h2 class="ja fsM4">Not Found</h2>
+</div>
+<div class="cnt">
+    <div class="cntM">
+        <?php get_template_part('parts/breadcrumb'); ?>
+    </div>
+</div>
 
 <section class="margin">
     <div class="cnt">
@@ -23,9 +22,7 @@ get_template_part('parts/assets/page-fv', null, ['pageName' => $pageName, 'pageI
         </div>
 
         <div class="text-center">
-            <a href="<?= home_url(); ?>" class="commonBtn">
-                <span class="commonBtnTx">TOPへ戻る</span>
-            </a>
+            <a href="<?= home_url(); ?>/news" class="cmnbtn --center"><span>TOPへ戻る</span></a>
         </div>
     </div>
 </section>
