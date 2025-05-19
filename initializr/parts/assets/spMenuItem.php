@@ -7,7 +7,7 @@
         </div>
     </div>
 </a>
-<a href="<?= home_url(); ?>/contact/?kind=contact2" class="spMenuItem --join">
+<a href="<?= info('login'); ?>" target="_blank" class="spMenuItem --join">
     <p class="name">ご入会はこちら</p>
     <div class="flex">
         <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-h-join.svg" alt="" width="36"></div>

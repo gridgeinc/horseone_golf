@@ -65,7 +65,7 @@
                             <!-- <td>学生向け特別プラン</td> -->
                         </tr>
                         <tr>
-                            <th>ジュニア会員（13歳未満）</th>
+                            <th>ジュニア会員（15歳以下）</th>
                             <td class="text-center">無料</td>
                             <td class="text-center">1,100<span class="enS">円</span></td>
                             <!-- <td>ジュニア特別プラン</td> -->
@@ -374,7 +374,7 @@
                         </div>
                     </div>
                     <div class="text-center mbS">
-                        <a href="" class="cmnbtn --white --center"><span>レッスンを予約する</span></a>
+                        <a href="<? info('login'); ?>" class="cmnbtn --white --center" target="_blank"><span>レッスンを予約する</span></a>
                     </div>
                 </div>
             </div>
@@ -420,7 +420,7 @@
                 <div class="swiper-wrapper">
                     <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
                         <div class="cntS">
-                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
                                 <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide1.jpg" alt=""></div>
                                 <div class="text ls_l">
@@ -447,7 +447,7 @@
                     </div>
                     <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
                         <div class="cntS">
-                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
                                 <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide2.jpg" alt=""></div>
                                 <div class="text ls_l">
@@ -474,7 +474,7 @@
                     </div>
                     <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
                         <div class="cntS">
-                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
                                 <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide3.jpg" alt=""></div>
                                 <div class="text ls_l">
@@ -567,7 +567,7 @@
                         <div class="txt">
                             <p class="bold600 fsM2 mbS2 lh_m">ご予約</p>
                             <p class="mbM3">ご入会後は、専用の予約サイトからレッスンや練習のご予約が可能です。<br>完全予約制のため、待ち時間なくご利用いただけます。</p>
-                            <a href="" target="_blank" class="cmnbtn"><span>打席を予約する</span></a>
+                            <a href="<? info('login'); ?>" target="_blank" class="cmnbtn"><span>打席を予約する</span></a>
                         </div>
                     </div>
                 </li>

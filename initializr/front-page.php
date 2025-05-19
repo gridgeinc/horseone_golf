@@ -588,7 +588,7 @@
                 <div class="swiper-wrapper">
                     <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
                         <div class="cntS">
-                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
                                 <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide1.jpg" alt=""></div>
                                 <div class="text ls_l">
@@ -615,7 +615,7 @@
                     </div>
                     <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
                         <div class="cntS">
-                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
                                 <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide2.jpg" alt=""></div>
                                 <div class="text ls_l">
@@ -642,7 +642,7 @@
                     </div>
                     <div id="other" class="paddingS mbS mbSpL4 swiper-slide">
                         <div class="cntS">
-                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Other Instructor</p>
+                            <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
                                 <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide3.jpg" alt=""></div>
                                 <div class="text ls_l">
@@ -690,7 +690,7 @@
 
         <div class="paddingS pt0">
             <div class="text-center" data-aos="fade">
-                <a href="" class="cmnbtn --white --center --spL"><span>レッスンを予約する</span></a>
+                <a href="<? info('login'); ?>" class="cmnbtn --white --center --spL" target="_blank"><span>レッスンを予約する</span></a>
             </div>
         </div>
     </div>
@@ -734,7 +734,7 @@
                         <!-- <td>学生向け特別プラン</td> -->
                     </tr>
                     <tr>
-                        <th>ジュニア会員（13歳未満）</th>
+                        <th>ジュニア会員（15歳以下）</th>
                         <td class="text-center">―</td>
                         <td class="text-center">1,100<span class="enS">円</span></td>
                         <!-- <td>ジュニア特別プラン</td> -->
