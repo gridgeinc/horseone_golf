@@ -85,7 +85,7 @@
             <div class="lineTtl mainColor bold600 fsM3 mbS text-center lh_m">目的に合わせたレッスン&<br class="sp">フィッティングプラン</div>
             <div class="lessonplan mbS" id="lesson1">
                 <div class="lessonplanMain mbS">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceSwing.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceSwing.jpg" alt="レッスン（通常）"></div>
                     <div class="txt">
                         <h3 class="mainColor bold600 lh_m fsL6 mbS3 ls_m">レッスン（通常）</h3>
                         <p class="bold600 lh_m fsM2 mbS3">スイングを整え、ショットの安定と再現性を高める</p>
@@ -132,7 +132,7 @@
             </div>
             <div class="lessonplan mbS" id="lesson2">
                 <div class="lessonplanMain mbS">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson2.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson2.jpg" alt="ツアーパット（テスト型）"></div>
                     <div class="txt">
                         <h3 class="mainColor bold600 lh_m fsL6 mbS3 ls_m">ツアーパット（テスト型）</h3>
                         <p class="bold600 lh_m fsM2 mbS3">今の自分を知る、パター傾向テスト</p>
@@ -174,7 +174,7 @@
             </div>
             <div class="lessonplan mbS" id="lesson3">
                 <div class="lessonplanMain mbS">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson3.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson3.jpg" alt="パットラボ（解析型）"></div>
                     <div class="txt">
                         <h3 class="mainColor bold600 lh_m fsL6 mbS3 ls_m">パットラボ（解析型）</h3>
                         <p class="bold600 lh_m fsM2 mbS3">ストロークのクセを数値で見直す</p>
@@ -209,7 +209,7 @@
             </div>
             <div class="lessonplan mbS2" id="lesson4">
                 <div class="lessonplanMain mbS">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson4.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson4.jpg" alt="パターレッスン"></div>
                     <div class="txt">
                         <h3 class="mainColor bold600 lh_m fsL6 mbS3 ls_m">パターレッスン</h3>
                         <p class="bold600 lh_m fsM2 mbS3">見えるからわかる。データで支えるパター上達</p>
@@ -244,7 +244,7 @@
             </div>
             <!-- <div class="lessonplan mbS2" id="lesson5">
                 <div class="lessonplanMain mbS">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson5.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson5.jpg" alt="コースレッスン"></div>
                     <div class="txt">
                         <h3 class="mainColor bold600 lh_m fsL6 mbS3 ls_m">コースレッスン</h3>
                         <p class="bold600 lh_m fsM2 mbS3">実際のラウンドで学ぶ、戦略と判断力</p>
@@ -279,7 +279,7 @@
             </div> -->
             <div class="lessonplan mbS2" id="lesson6">
                 <div class="lessonplanMain mbS">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson6.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceLesson6.jpg" alt="フィッティング"></div>
                     <div class="txt">
                         <h3 class="mainColor bold600 lh_m fsL6 mbS3 ls_m">フィッティング</h3>
                         <p class="bold600 lh_m fsM2 mbS3">スイング特性に合った1本で、精度と再現性を高める</p>
@@ -350,7 +350,7 @@
                             </div>
                         </div>
                         <div class="img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/instructor.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/instructor.jpg" alt="坂本 一馬">
                         </div>
                     </div>
                 </div>
@@ -360,7 +360,7 @@
             <div class="cnt" data-aos="fade">
                 <div class="cntS">
                     <div class="instructorMessage mbM3">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructor2.jpg" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructor2.jpg" alt="坂本 一馬"></div>
                         <div class="txt">
                             <p class="bold600 fsM2 white lh_m mbS">型にはめずに伸ばす。<br>データを味方に、楽しく上達の軌道に</p>
                             <p class="lh_xl white">ホースワンメインインストラクターの坂本一馬です。<br>
@@ -384,7 +384,7 @@
                 <div class="cntS">
                     <p class="mainColor bold600 inter fsL5 lh_s mbS">Special Comment</p>
                     <div class="commentFlex">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/comment.jpg" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/comment.jpg" alt="奥嶋 誠昭"></div>
                         <div class="text ls_l">
                             <div class="name mbS2 flex cg1em alignCenter">
                                 <p class="ja bold600 fsM15 lh_m">奥嶋 誠昭</p>
@@ -422,7 +422,7 @@
                         <div class="cntS">
                             <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide1.jpg" alt=""></div>
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide1.jpg" alt="富永 暁登"></div>
                                 <div class="text ls_l">
                                     <div class="name mbS2 flex cg1em alignCenter">
                                         <p class="ja bold600 fsM15 lh_m">富永 暁登</p>
@@ -449,7 +449,7 @@
                         <div class="cntS">
                             <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide2.jpg" alt=""></div>
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide2.jpg" alt="安本 美咲"></div>
                                 <div class="text ls_l">
                                     <div class="name mbS2 flex cg1em alignCenter">
                                         <p class="ja bold600 fsM15 lh_m">安本 美咲</p>
@@ -476,7 +476,7 @@
                         <div class="cntS">
                             <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide3.jpg" alt=""></div>
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide3.jpg" alt="花下 苺"></div>
                                 <div class="text ls_l">
                                     <div class="name mbS2 flex cg1em alignCenter">
                                         <p class="ja bold600 fsM15 lh_m">花下 苺</p>
@@ -535,7 +535,7 @@
                         STEP<span>01</span>
                     </div>
                     <div class="txtBlock">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow1.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow1.png" alt="体験・見学（任意）"></div>
                         <div class="txt">
                             <p class="bold600 fsM2 mbS2 lh_m">体験・見学（任意）</p>
                             <p class="mbM3">ご希望の方は、施設やシミュレーターの見学・体験が可能です（約60分）。<br>
@@ -549,7 +549,7 @@
                         STEP<span>02</span>
                     </div>
                     <div class="txtBlock">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow2.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow2.png" alt="入会手続き"></div>
                         <div class="txt">
                             <p class="bold600 fsM2 mbS2 lh_m">入会手続き</p>
                             <p class="mbM3">専用サイトからご希望のプランを選んでお申し込みいただけます。<br>
@@ -563,7 +563,7 @@
                         STEP<span>03</span>
                     </div>
                     <div class="txtBlock">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow3.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow3.png" alt="ご予約"></div>
                         <div class="txt">
                             <p class="bold600 fsM2 mbS2 lh_m">ご予約</p>
                             <p class="mbM3">ご入会後は、専用の予約サイトからレッスンや練習のご予約が可能です。<br>完全予約制のため、待ち時間なくご利用いただけます。</p>
@@ -576,7 +576,7 @@
                         STEP<span>04</span>
                     </div>
                     <div class="txtBlock">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow4.png" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/priceFlow4.png" alt="プレイ開始"></div>
                         <div class="txt">
                             <p class="bold600 fsM2 mbS2 lh_m">プレイ開始</p>
                             <p class="">初回は施設の使い方やシミュレーターの操作方法をご説明します。<br>

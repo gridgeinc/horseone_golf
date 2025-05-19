@@ -12,7 +12,7 @@
 
                 <?php if (!empty($args['pageImg'])) : ?>
                     <div class="pageHeaderImgBox">
-                        <div class="pageHeaderImg"><img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo $args['pageImg']['pageMainImg']; ?>" alt=""></div>
+                        <div class="pageHeaderImg"><img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo $args['pageImg']['pageMainImg']; ?>" alt="<?php echo $args['pageName']['jp_ttl'] ?: the_title(); ?>"></div>
                     </div>
                 <?php endif; ?>
 

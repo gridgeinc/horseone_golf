@@ -24,10 +24,10 @@ get_header();
         </p>
 
         <div class="text-center">
-            <a href="<?= home_url(); ?>" class="cmnbtn"><span>TOPへ戻る</span></a>
+            <a href="<?= home_url(); ?>" class="cmnbtn marginCenter"><span>TOPへ戻る</span></a>
         </div>
 
-        <div class="cntS">
+        <div class=" cntS">
             <div class="contactFormBlock">
                 <?php the_content(); ?>
             </div>

@@ -66,7 +66,7 @@
                 <div class="footerLeft" id="footerinfo">
                     <div class="footerLeftTop mbM3">
                         <div class="logo">
-                            <p class="fsS3">岡山でインドアゴルフなら</p><img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="" width="185">
+                            <p class="fsS3">岡山でインドアゴルフなら</p><img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Horse One Golf studio" width="185">
                         </div>
                         <div class="footerSns">
                             <?= get_template_part('parts/assets/snsblock'); ?>

@@ -101,44 +101,48 @@
 
 <div class="bgSpecial">
     <div class="bgSpecialIn"></div>
-    <section id="special">
-        <div class="specialInner relative">
-            <div class="specialSlide">
-                <div class="swiper-wrapper">
-                    <?php
-                    $args = [
-                        'post_type'      => 'post',
-                        'posts_per_page' => -1,
-                        'category_name'  => 'special',
-                    ];
 
-                    $special_query = new WP_Query($args);
+    <?php
+    $args = [
+        'post_type'      => 'post',
+        'posts_per_page' => -1,
+        'category_name'  => 'special',
+    ];
 
-                    if ($special_query->have_posts()) :
+    $special_query = new WP_Query($args);
+
+    if ($special_query->have_posts()) : ?>
+        <section id="special">
+            <div class="specialInner relative">
+                <div class="specialSlide">
+                    <div class="swiper-wrapper">
+                        <?php
                         while ($special_query->have_posts()) : $special_query->the_post();
                             if (has_post_thumbnail()) {
                                 $img_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
                             } else {
                                 $img_url = get_template_directory_uri() . '/img/noimage.png';
                             }
-                    ?>
+                        ?>
                             <div class="swiper-slide">
                                 <a href="<?php the_permalink(); ?>">
                                     <img src="<?php echo esc_url($img_url); ?>" alt="<?php the_title_attribute(); ?>" class="mb5">
                                     <p class="text-center bold fsM4 lh_m"><?php the_title_attribute(); ?></p>
                                 </a>
                             </div>
-                    <?php
+                        <?php
                         endwhile;
                         wp_reset_postdata();
-                    endif;
-                    ?>
+                        ?>
+                    </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </section>
+        </section>
+    <?php endif; ?>
+
+
     <section id="news">
         <div class="cnt padding" data-aos="fade">
             <div class="cntS2">
@@ -259,42 +263,42 @@
             </div>
             <div class="featureBox mbM3">
                 <a href="<?= home_url(); ?>/facility/#feature1" class="featureBoxItem">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature1.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature1.jpg" alt="特徴1"></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.01</div>
                         <p class="fsM32 bold600 lh_m ls_m">自分に合った練習方法で、<br class="pc">楽しく・確実にステップアップ</p>
                     </div>
                 </a>
                 <a href="<?= home_url(); ?>/facility/#feature2" class="featureBoxItem">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature2.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature2.jpg" alt="特徴2"></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.02</div>
                         <p class="fsM32 bold600 lh_m ls_m">AI×最先端測定で、<br class="pc">“なんとなく”を卒業する</p>
                     </div>
                 </a>
                 <a href="<?= home_url(); ?>/facility/#feature3" class="featureBoxItem">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature3.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature3.jpg" alt="特徴3"></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.03</div>
                         <p class="fsM32 bold600 lh_m ls_m">型にはめるのではなく、<br class="pc">個性を引き出すレッスン</p>
                     </div>
                 </a>
                 <a href="<?= home_url(); ?>/facility/#feature4" class="featureBoxItem">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature4.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature4.jpg" alt="特徴4"></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.04</div>
                         <p class="fsM32 bold600 lh_m ls_m">岡山駅徒歩圏内。<br>通いやすさも、本気の継続力に</p>
                     </div>
                 </a>
                 <a href="<?= home_url(); ?>/facility/#feature5" class="featureBoxItem">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature5.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature5.jpg" alt="特徴5"></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.05</div>
                         <p class="fsM32 bold600 lh_m ls_m">集中と安心の空間、<br>プライベートルームで<br class="pc">本気の1時間を</p>
                     </div>
                 </a>
                 <a href="<?= home_url(); ?>/facility/#feature6" class="featureBoxItem">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature6.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topFeature6.jpg" alt="特徴6"></div>
                     <div class="txt white bgMainColor matchHeight">
                         <div class="num inter fsS mbS">Feature.06</div>
                         <p class="fsM32 bold600 lh_m ls_m">2025年5月オープン。<br>最新の環境で、<br class="pc">快適にゴルフを楽しめる</p>
@@ -539,7 +543,7 @@
                             <a href="<?= home_url(); ?>/price/#priceCoaching" class="cmnbtn"><span>もっと詳しく知る</span></a>
                         </div>
                         <div class="img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/instructor.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/instructor.jpg" alt="坂本 一馬">
                         </div>
                     </div>
                 </div>
@@ -550,7 +554,7 @@
                 <div class="cntS">
                     <p class="mainColor bold600 inter fsL5 lh_s mbS">Special Comment</p>
                     <div class="commentFlex">
-                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/comment.jpg" alt=""></div>
+                        <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/comment.jpg" alt="奥嶋 誠昭"></div>
                         <div class="text ls_l">
                             <div class="name mbS2 flex cg1em alignCenter">
                                 <p class="ja bold600 fsM15 lh_m">奥嶋 誠昭</p>
@@ -590,7 +594,7 @@
                         <div class="cntS">
                             <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide1.jpg" alt=""></div>
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide1.jpg" alt="富永 暁登"></div>
                                 <div class="text ls_l">
                                     <div class="name mbS2 flex cg1em alignCenter">
                                         <p class="ja bold600 fsM15 lh_m">富永 暁登</p>
@@ -617,7 +621,7 @@
                         <div class="cntS">
                             <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide2.jpg" alt=""></div>
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide2.jpg" alt="安本 美咲"></div>
                                 <div class="text ls_l">
                                     <div class="name mbS2 flex cg1em alignCenter">
                                         <p class="ja bold600 fsM15 lh_m">安本 美咲</p>
@@ -644,7 +648,7 @@
                         <div class="cntS">
                             <p class="mainColor bold600 inter fsL5 lh_s mbS">Staff</p>
                             <div class="commentFlex">
-                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide3.jpg" alt=""></div>
+                                <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/instructorSlide3.jpg" alt="花下 苺"></div>
                                 <div class="text ls_l">
                                     <div class="name mbS2 flex cg1em alignCenter">
                                         <p class="ja bold600 fsM15 lh_m">花下 苺</p>
@@ -753,14 +757,14 @@
             <div class="lineTtl mainColor bold600 fsM3 mbS text-center lh_m">目的に合わせたレッスン&<br class="sp">フィッティングプラン</div>
             <div class="lessonFlex mbS">
                 <a href="<?= home_url(); ?>/price/#lesson1">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson1.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson1.jpg" alt="レッスン（通常）"></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">レッスン（通常）</p>
                         <p class="white text-center fsM35 lh_m">60<span class="enS">分</span>　4,400<span class="enS">円〜</span></p>
                     </div>
                 </a>
                 <a href="<?= home_url(); ?>/price/#lesson2">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson2.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson2.jpg" alt="ツアーパット"></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">ツアーパット<br class="sp">(テスト型)</p>
                         <p class="white text-center fsM35 lh_m">60<span class="enS">分</span> or 120<span class="enS">分</span>　<br class="sp">6,600<span class="enS">円〜</span></p>
@@ -768,7 +772,7 @@
                 </a>
 
                 <a href="<?= home_url(); ?>/price/#lesson3">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson3.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson3.jpg" alt="パットラボ"></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">パットラボ</p>
                         <p class="white text-center fsM35 lh_m">60<span class="enS">分</span>　11,000<span class="enS">円〜</span></p>
@@ -776,7 +780,7 @@
                 </a>
 
                 <a href="<?= home_url(); ?>/price/#lesson4">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson4.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson4.jpg" alt="パターレッスン"></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">パターレッスン</p>
                         <p class="white text-center fsM35 lh_m">30<span class="enS">分</span>　1,100<span class="enS">円〜</span></p>
@@ -784,7 +788,7 @@
                 </a>
 
                 <!-- <a href="<?= home_url(); ?>/price/#lesson5">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson5.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson5.jpg" alt="コースレッスン"></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">コースレッスン<br class="sp">(9ホール)</p>
                         <p class="white text-center fsM35 lh_m">1<span class="enS">回</span>　10,000<span class="enS">円〜</span></p>
@@ -792,7 +796,7 @@
                 </a> -->
 
                 <a href="<?= home_url(); ?>/price/#lesson6">
-                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson6.jpg" alt=""></div>
+                    <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/topLesson6.jpg" alt="フィッティング"></div>
                     <div class="txt bgMainColor">
                         <p class="text-center white bold600 fsM2 lh_m fsSpM3">フィッティング</p>
                         <p class="white text-center fsM35 lh_m">90<span class="enS">分</span>　20,900<span class="enS">円〜</span></p>
