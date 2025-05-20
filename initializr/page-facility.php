@@ -536,7 +536,7 @@
                 <?php foreach ($amenities as $item) : ?>
                     <div>
                         <div class="img mbS">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo esc_attr($item['img']); ?>" alt="<?php echo $item['title']; ?>">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo esc_attr($item['img']); ?>">
                         </div>
                         <h4 class="text-center mainColor bold600 fsM4 lh_m mbS2 matchHeight ttl"><?php echo $item['title']; ?></h4>
                         <p><?php echo $item['text']; ?></p>
