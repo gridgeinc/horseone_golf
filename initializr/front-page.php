@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="mvIn">
+        <div class="mvIn pc">
             <div class="mvSlide">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">

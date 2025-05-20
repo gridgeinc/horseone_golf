@@ -543,7 +543,7 @@
                 </li>
             </ul>
             <div class="text-center">
-                <a href="<?= home_url(); ?>/contact/?kind=contact2" class="cmnbtn --center"><span>ご入会はこちらから</span></a>
+                <a href="<?= info('join'); ?>" target="_blank" class="cmnbtn --center"><span>ご入会はこちらから</span></a>
             </div>
         </div>
     </div>

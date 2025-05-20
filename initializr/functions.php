@@ -348,6 +348,8 @@ function info($info)
     } elseif ($info == "twitter") {
         echo "";
     } elseif ($info == "login") {
+        echo "https://www.slim-sng.jp/slim/web/d/sng/member_login/?c=Ps9YpQf52m&f=00001";
+    } elseif ($info == "join") {
         echo "https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Ps9YpQf52m&f=00001";
     }
 }

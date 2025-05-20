@@ -857,7 +857,7 @@ footer {
     aspect-ratio: 640 / 800;
     @include sp {
       width: 100%;
-      aspect-ratio: 3 / 2;
+      // aspect-ratio: 3 / 2;
     }
   }
   .mvSlide {
@@ -886,7 +886,7 @@ footer {
     overflow: hidden;
     @include sp {
       width: per(300, 390);
-      aspect-ratio: 3 / 2;
+      // aspect-ratio: 3 / 2;
     }
     img {
       @include img-fit();
