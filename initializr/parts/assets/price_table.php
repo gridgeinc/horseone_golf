@@ -29,9 +29,9 @@
                 <!-- <td>学生向け特別プラン</td> -->
             </tr>
             <tr>
-                <th>ジュニア会員（15歳以下）</th>
+                <th>ジュニア料金（15歳以下）</th>
                 <td class="text-center">無料</td>
-                <td class="text-center">1,100<span class="enS">円</span></td>
+                <td class="text-center">3,300<span class="enS">円</span></td>
                 <!-- <td>ジュニア特別プラン</td> -->
             </tr>
             <tr>

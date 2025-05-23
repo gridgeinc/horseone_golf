@@ -565,8 +565,8 @@
                     <p>②桃太郎大通りを南へ直進（約7分）</p>
                 </div>
                 <div>
-                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciAccess3.jpg" alt="③「源吉兆庵本社前」を左折し、右手のアクタスビル3Fへ"></div>
-                    <p>③「源吉兆庵本社前」を左折し、右手のアクタスビル3Fへ</p>
+                    <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciAccess3.jpg" alt="③「源吉兆庵本社前」を左折し、左手のアクタスビル3Fへ"></div>
+                    <p>③「源吉兆庵本社前」を左折し、左手のアクタスビル3Fへ</p>
                 </div>
                 <div>
                     <div class="img mbS"><img src="<?php echo get_template_directory_uri(); ?>/img/faciAccess4.jpg" alt="④無料駐車場3台完備"></div>
