@@ -22,7 +22,7 @@
         </div>
     </section>
     <div class="float">
-        <a href="<?= home_url(); ?>/contact/?kind=contact1" class="appBtn">
+        <a href="<?php echo info('trial'); ?>" target="_blank" class="appBtn">
             <p class="ttl mbS3">当日体験OK!</p>
             <div class="flexSp">
                 <div class="img mbM3 mbSp0"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-calendar.svg" alt="" width="22"></div>

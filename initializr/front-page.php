@@ -75,7 +75,7 @@
         <div class="div">
             <div class="fvLogo mbS2"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-fv.svg" alt="" width="160"></div>
             <p class="txt mbS2 ls_xl">データで発見、数値で変える<br>ゴルフがもっと楽しく、うまくなる</p>
-            <a href="<?= home_url(); ?>/contact/?kind=contact1" class="appBtn">
+            <a href="<?php echo info('trial'); ?>" target="_blank" class="appBtn">
                 <p class="ttl mbS3">当日体験OK!</p>
                 <div class="flex alignCenter justCenter">
                     <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-calendar.svg" alt="" width="28"></div>

@@ -97,7 +97,7 @@
                         <?= get_template_part('parts/assets/menu'); ?>
                     </ul>
                 </div>
-                <a href="<?= home_url(); ?>/contact/?kind=contact1" class="appBtn">
+                <a href="<?php echo info('trial'); ?>" target="_blank" class="appBtn">
                     <p class="ttl">当日体験OK!</p>
                     <div class="flex alignCenter">
                         <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-calendar.svg" alt="" width="28"></div>

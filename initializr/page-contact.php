@@ -17,7 +17,7 @@ get_header();
         <div class="contactMainBox">
 
             <p class="text-center mbS">
-                ご入会・無料体験のお申し込みは<br class="sp">下記フォームから受け付けております。<br>お気軽にお問い合わせください。
+                下記フォームから受け付けております。<br>お気軽にお問い合わせください。
             </p>
             <!-- <div class="mbM">
                 <a href="tel:<?php info('telNotHy'); ?>" class="contactTel telLink">

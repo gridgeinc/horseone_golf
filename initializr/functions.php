@@ -351,6 +351,8 @@ function info($info)
         echo "https://www.slim-sng.jp/slim/web/d/sng/member_login/?c=Ps9YpQf52m&f=00001";
     } elseif ($info == "join") {
         echo "https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Ps9YpQf52m&f=00001";
+    } elseif ($info == 'trial') {
+        echo "https://www.slim-sng.jp/slim/web/d/sng/trial_reservation/trial_login/?c=Ps9YpQf52m&f=00001&reserve_type=3";
     }
 }
 

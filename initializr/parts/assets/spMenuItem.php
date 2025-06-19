@@ -1,4 +1,4 @@
-<a href="<?= home_url(); ?>/contact/?kind=contact1" class="spMenuItem --ex">
+<a href="<?php echo info('trial'); ?>" target="_blank" class="spMenuItem --ex">
     <p class="name">当日体験OK!</p>
     <div class="flex">
         <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-calendar.svg" alt="無料体験お申し込み" width="28"></div>

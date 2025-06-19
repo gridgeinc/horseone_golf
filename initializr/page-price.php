@@ -497,7 +497,7 @@
                             <p class="bold600 fsM2 mbS2 lh_m">体験・見学（任意）</p>
                             <p class="mbM3">ご希望の方は、施設やシミュレーターの見学・体験が可能です（約60分）。<br>
                                 お申し込み前に雰囲気を知っておきたい方におすすめです。<br>※見学・体験をせずにそのままご入会いただくことも可能です。</p>
-                            <a href="<?php echo home_url('contact/?kind=contact1'); ?>" class="cmnbtn"><span>無料体験を予約する</span></a>
+                            <a href="<?php echo info('trial'); ?>" target="_blank" class="cmnbtn"><span>無料体験を予約する</span></a>
                         </div>
                     </div>
                 </li>
