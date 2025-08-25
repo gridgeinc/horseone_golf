@@ -322,7 +322,7 @@ function info($info)
     } elseif ($info == "address") {
         echo "岡山市北区幸町7-20 アクタスビル 3F";
     } elseif ($info == "tel") {
-        echo ""; // 050-222-222
+        echo "086-238-9111"; // 050-222-222
     } elseif ($info == "telNotHy") {
         echo ""; // 050222222
     } elseif ($info == "fax") {

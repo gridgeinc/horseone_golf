@@ -12,11 +12,11 @@
                     <div class="cvFlex mbS2 mbSpM3">
                         <?= get_template_part('parts/assets/spMenuItem'); ?>
                     </div>
-                    <!-- <div class="cvTel">
+                    <div class="cvTel">
                         <a href="tel:<?php info('telNotHy'); ?>">
                             <div class="img"><img src="<?php echo get_template_directory_uri(); ?>/img/ic-h-tel.svg" alt=""></div><span class="bold600 white fsM3"><?php info('tel'); ?></span><span class="fsM4 white">［受付時間］<?php info('time'); ?></span>
                         </a>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
