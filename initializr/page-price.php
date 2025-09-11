@@ -116,7 +116,7 @@
                                 <td class="text-center">6,600<span class="enS">円</span></td>
                                 <td class="text-center">8,800<span class="enS">円</span></td>
                                 <td class="text-center">5,500<span class="enS">円</span></td>
-                                <td class="text-center">―</td>
+                                <td class="text-center">9,900<span class="enS">円</span></td>
                             </tr>
                             <tr>
                                 <th>ツアーパット(120分)</th>
