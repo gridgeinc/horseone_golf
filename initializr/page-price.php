@@ -83,7 +83,8 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p class="fsS">※プレミアムに限り、VIPルーム利用可</p>
+                    <p class="fsS">※プレミアムに限り、VIPルーム（trackman打席）使用可</p>
+                    <p class="fsS">※ミドル、学生、ジュニア、ビジターは2,200円でtrackman打席使用可</p>
                 </div>
 
             </div>
@@ -190,10 +191,10 @@
                         <tbody>
                             <tr>
                                 <th>パターレッスン(30分)</th>
-                                <td class="text-center">1,100<span class="enS">円</span></td>
-                                <td class="text-center">1,650<span class="enS">円</span></td>
-                                <td class="text-center">1,100<span class="enS">円</span></td>
                                 <td class="text-center">2,200<span class="enS">円</span></td>
+                                <td class="text-center">2,500<span class="enS">円</span></td>
+                                <td class="text-center">2,200<span class="enS">円</span></td>
+                                <td class="text-center">3,300<span class="enS">円</span></td>
                             </tr>
                         </tbody>
                     </table>
