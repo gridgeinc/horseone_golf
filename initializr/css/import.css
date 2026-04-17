@@ -3551,12 +3551,14 @@ div#respond input {
 }
 .singleColumnShareButton i {
   font-size: 22px;
-  margin-right: 0.5rem;
 }
 @media only screen and (max-width: 767px) {
   .singleColumnShareButton i {
     font-size: 16px;
   }
+}
+.singleColumnShareButton i {
+  margin-right: 0.5rem;
 }
 .singleColumnShareButton.twitter {
   background: #000;
@@ -3760,7 +3762,6 @@ div#respond input {
   width: 35px;
 }
 .singlePageLink::after {
-  -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   background: #fff;
   height: 13px;
@@ -4206,13 +4207,15 @@ a.page-numbers {
   color: #fff;
   padding: 0.3em 0.6em;
   line-height: 1;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 @media only screen and (max-width: 767px) {
   .sidebarCategoryBlock li a {
     font-size: 11px;
   }
+}
+.sidebarCategoryBlock li a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .sidebarCategoryBlock li a:hover {
   opacity: 0.7;
@@ -4918,9 +4921,6 @@ header {
 }
 .headerTel .num {
   font-size: 21px;
-  line-height: 1.1;
-  font-weight: 600 !important;
-  letter-spacing: 0.1em;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .headerTel .num {
@@ -4931,6 +4931,11 @@ header {
   .headerTel .num {
     font-size: 16px;
   }
+}
+.headerTel .num {
+  line-height: 1.1;
+  font-weight: 600 !important;
+  letter-spacing: 0.1em;
 }
 @media only screen and (max-width: 1200px) {
   .headerTel .num {
@@ -5021,9 +5026,6 @@ header {
   background-color: #fff;
   color: var(--mainColor);
   font-size: 14px;
-  font-weight: 600 !important;
-  text-align: center;
-  border-radius: 100vw;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .appBtn .ttl {
@@ -5034,6 +5036,11 @@ header {
   .appBtn .ttl {
     font-size: 12px !important;
   }
+}
+.appBtn .ttl {
+  font-weight: 600 !important;
+  text-align: center;
+  border-radius: 100vw;
 }
 @media only screen and (max-width: 1200px) {
   .appBtn .ttl {
@@ -5771,12 +5778,6 @@ footer {
 }
 .fvTxt .txt {
   font-size: 40px;
-  font-weight: 600 !important;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-  color: #fff;
-  text-align: center;
-  line-height: 1.5;
-  white-space: nowrap;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .fvTxt .txt {
@@ -5787,6 +5788,14 @@ footer {
   .fvTxt .txt {
     font-size: 22px;
   }
+}
+.fvTxt .txt {
+  font-weight: 600 !important;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  white-space: nowrap;
 }
 @media only screen and (max-width: 767px) {
   .fvTxt .txt {
@@ -5934,8 +5943,6 @@ ul.topNewsList li {
   background-color: var(--subColor);
   color: #fff;
   font-size: 14px;
-  line-height: 1;
-  padding: 0.3em 0.7em;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .newsCat {
@@ -5946,6 +5953,10 @@ ul.topNewsList li {
   .newsCat {
     font-size: 12px !important;
   }
+}
+.newsCat {
+  line-height: 1;
+  padding: 0.3em 0.7em;
 }
 
 .choseBox {
@@ -6121,8 +6132,6 @@ ul.topNewsList li {
   font-family: "Inter", sans-serif;
   font-weight: 600 !important;
   font-size: 56px;
-  line-height: 1.2;
-  letter-spacing: 0.1em;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .ttlWrap .en {
@@ -6133,6 +6142,10 @@ ul.topNewsList li {
   .ttlWrap .en {
     font-size: 36px;
   }
+}
+.ttlWrap .en {
+  line-height: 1.2;
+  letter-spacing: 0.1em;
 }
 .ttlWrap .ja {
   font-weight: 600 !important;
@@ -6516,8 +6529,6 @@ ul.topNewsList li {
   display: block;
   position: absolute;
   font-size: 12px;
-  color: #fff;
-  padding: 0.3em 1em;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .facilityBtn.--dounyuu::after {
@@ -6528,6 +6539,10 @@ ul.topNewsList li {
   .facilityBtn.--dounyuu::after {
     font-size: 11px;
   }
+}
+.facilityBtn.--dounyuu::after {
+  color: #fff;
+  padding: 0.3em 1em;
 }
 
 .equipBox {
@@ -6634,6 +6649,18 @@ ul.topNewsList li {
 .dounyu {
   position: absolute;
   font-size: 14px;
+}
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+  .dounyu {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .dounyu {
+    font-size: 12px !important;
+  }
+}
+.dounyu {
   text-align: center;
   background-color: #f6ff00;
   z-index: 1;
@@ -6660,16 +6687,6 @@ ul.topNewsList li {
   -webkit-transform: translate(-50%, -30%);
           transform: translate(-50%, -30%);
 }
-@media only screen and (min-width: 767px) and (max-width: 959px) {
-  .dounyu {
-    font-size: 13px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .dounyu {
-    font-size: 12px !important;
-  }
-}
 @media only screen and (max-width: 767px) {
   .dounyu {
     -webkit-transform: translate(5px, 5px);
@@ -6691,8 +6708,6 @@ ul.topNewsList li {
 }
 .dounyu span {
   font-size: 18px;
-  font-weight: 600 !important;
-  line-height: 1.2;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .dounyu span {
@@ -6704,9 +6719,17 @@ ul.topNewsList li {
     font-size: 14px;
   }
 }
+.dounyu span {
+  font-weight: 600 !important;
+  line-height: 1.2;
+}
 
 .coachingBg {
   background: url(../img/bg-coaching.jpg) no-repeat center top/cover;
+}
+
+.faciCustomBg {
+  background: url(../img/faciCustomBg.jpg) no-repeat center top/cover;
 }
 
 .coachingIn {
@@ -7216,7 +7239,6 @@ ul.topNewsList li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 }
 @media only screen and (max-width: 767px) {
   .otherpageFlex {
@@ -7252,6 +7274,9 @@ ul.topNewsList li {
     height: 135px;
     width: 100%;
   }
+}
+.otherpageFlex {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 }
 
 .bgCover {
@@ -7481,7 +7506,6 @@ ul.topNewsList li {
 }
 .breadcrumbsInner > * {
   font-size: 13px;
-  position: relative;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .breadcrumbsInner > * {
@@ -7492,6 +7516,9 @@ ul.topNewsList li {
   .breadcrumbsInner > * {
     font-size: 12px;
   }
+}
+.breadcrumbsInner > * {
+  position: relative;
 }
 .breadcrumbsInner > *:not(:last-of-type)::before {
   content: "";
@@ -7867,9 +7894,6 @@ ul.topNewsList li {
           transform: translate(-10px, -10px);
   font-weight: 600 !important;
   font-size: 12px;
-  border-radius: 100vw;
-  padding: 0.7em 1.3em;
-  line-height: 1;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .pointWrap > * .num {
@@ -7880,6 +7904,11 @@ ul.topNewsList li {
   .pointWrap > * .num {
     font-size: 11px;
   }
+}
+.pointWrap > * .num {
+  border-radius: 100vw;
+  padding: 0.7em 1.3em;
+  line-height: 1;
 }
 @media only screen and (max-width: 767px) {
   .pointWrap > * .num {
@@ -7893,7 +7922,6 @@ ul.topNewsList li {
   font-weight: 600 !important;
   font-family: "Inter", sans-serif;
   font-size: 24px;
-  line-height: 1;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .pointWrap > * .num span {
@@ -7904,6 +7932,9 @@ ul.topNewsList li {
   .pointWrap > * .num span {
     font-size: 17px;
   }
+}
+.pointWrap > * .num span {
+  line-height: 1;
 }
 @media only screen and (max-width: 767px) {
   .pointWrap > * .num span {
@@ -8260,7 +8291,6 @@ ul.topNewsList li {
   text-align: center;
   font-weight: 600 !important;
   font-size: 40px;
-  line-height: 1;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .flowList > li .num * {
@@ -8271,6 +8301,9 @@ ul.topNewsList li {
   .flowList > li .num * {
     font-size: 22px;
   }
+}
+.flowList > li .num * {
+  line-height: 1;
 }
 .flowList > li .txtBlock {
   background-color: #edfffa;
@@ -8356,6 +8389,18 @@ dl.faq dt::before {
   font-family: "Inter", sans-serif;
   font-weight: 600 !important;
   font-size: 24px;
+}
+@media only screen and (min-width: 767px) and (max-width: 959px) {
+  dl.faq dt::before {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  dl.faq dt::before {
+    font-size: 17px;
+  }
+}
+dl.faq dt::before {
   color: var(--mainColor);
   background-color: #fff;
   border-radius: 100vw;
@@ -8371,16 +8416,6 @@ dl.faq dt::before {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media only screen and (min-width: 767px) and (max-width: 959px) {
-  dl.faq dt::before {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  dl.faq dt::before {
-    font-size: 17px;
-  }
-}
 @media only screen and (max-width: 767px) {
   dl.faq dt::before {
     width: 25px;
@@ -8389,8 +8424,6 @@ dl.faq dt::before {
 }
 dl.faq dt * {
   font-size: 18px;
-  font-weight: 600 !important;
-  line-height: 1.5;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   dl.faq dt * {
@@ -8401,6 +8434,10 @@ dl.faq dt * {
   dl.faq dt * {
     font-size: 14px;
   }
+}
+dl.faq dt * {
+  font-weight: 600 !important;
+  line-height: 1.5;
 }
 dl.faq dt .in {
   padding-top: 0.3em;
@@ -8469,8 +8506,6 @@ dl.faq + dl {
 .faqTtl {
   font-weight: 600 !important;
   font-size: 24px;
-  color: var(--mainColor);
-  margin-bottom: 0.2em;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .faqTtl {
@@ -8481,6 +8516,10 @@ dl.faq + dl {
   .faqTtl {
     font-size: 17px;
   }
+}
+.faqTtl {
+  color: var(--mainColor);
+  margin-bottom: 0.2em;
 }
 
 .otherNewsBlockInner {
@@ -8545,9 +8584,6 @@ dl.faq + dl {
 }
 .formTable th .required {
   font-size: 14px;
-  color: #fff;
-  background-color: #ff5b5b;
-  padding: 0.25em 0.5em;
 }
 @media only screen and (min-width: 767px) and (max-width: 959px) {
   .formTable th .required {
@@ -8558,6 +8594,11 @@ dl.faq + dl {
   .formTable th .required {
     font-size: 12px !important;
   }
+}
+.formTable th .required {
+  color: #fff;
+  background-color: #ff5b5b;
+  padding: 0.25em 0.5em;
 }
 
 .policy {
