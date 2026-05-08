@@ -68,7 +68,7 @@
                 <div class="txt bgMainColor" data-aos="fade">
                     <div class="inter mbS white">Feature.03</div>
                     <p class="bold600 fsM15 lh_m15 ls_m white mbS2">型にはめるのではなく、<br>個性を引き出すレッスン</p>
-                    <p class=" white mbS lh_xl">元ツアープロを師に持ち、自らも長年競技に打ち込んできた坂本一馬を筆頭とするインストラクターチームが、「あなたのゴルフ」を一緒に見つけます。どんなレベルでも、今より確実に変わるレッスンをご提供します。</p>
+                    <p class=" white mbS lh_xl">ツアープロを師に持ち、自らも長年競技に打ち込んできた坂本一馬を筆頭とするインストラクターチームが、「あなたのゴルフ」を一緒に見つけます。どんなレベルでも、今より確実に変わるレッスンをご提供します。</p>
                     <ul class="checkList fsM4 bold600--all">
                         <li><span>初心者には<span class="mainColor">「続けたくなる」</span>基本を</span></li>
                         <li><span>中級者には<span class="mainColor">「壁を越える」</span>戦略と調整を</span></li>
@@ -477,81 +477,8 @@
 </script>
 
 
-<?php if (isset($_GET['demo'])): ?>
-    <section id="faciCustom">
-        <div class="faciCustomBg padding">
-            <div class="cnt" data-aos="fade">
-                <div class="cntS">
-                    <div class="ttlWrap text-center white mbS">
-                        <div class="en">Custom Club Fitting</div>
-                        <h2 class="ja">クラフト工房のご紹介</h2>
-                    </div>
 
-                    <div class="faciStyleItemMain mbM3 mbSpM2">
-                        <div class="img">
-                            <img src="<?= get_template_directory_uri(); ?>/img/topFitting2.jpg" alt="スイングの真価を引き出す、究極の1本を" class="w100">
-                        </div>
-                        <div class="txt">
-                            <p class="bold600 fsM15 lh_m15 ls_m white mbS2">スイングの真価を引き出す、究極の1本を</p>
-                            <p class=" white mbS lh_xl">岡山でも数少ない、本格的なクラフト＆組み立て工房をスタジオ内に完備。最新鋭の設備と、歴20年を超える熟練クラフトマンによる職人技を融合させ、あなたに完璧に適合する一本を仕立てます。既存のクラブへの違和感を解消し、ポテンシャルを最大限に引き出す。ただ打つだけではない、道具から変える上達体験をホースワンゴルフスタジオがお約束します。</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="margin">
-            <div class="cntM">
-                <div class="ttlWrap text-center mbS">
-                    <div class="en mainColor">Feature</div>
-                    <h2 class="ja">クラフト工房５つの特徴</h2>
-                </div>
-                <div class="faciFeatureItem mbM3" id="feature1">
-                    <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom1.jpg" alt="300本以上の試打ラインナップから導く「中立」の選定"></div>
-                    <div class="txt bgMainColor" data-aos="fade">
-                        <div class="inter mbS white">Feature.01</div>
-                        <p class="bold600 fsM15 lh_m15 ls_m white mbS2">300本以上の試打ラインナップから導く「中立」の選定</p>
-                        <p class=" white mbS lh_xl">私たちは特定のメーカーやブランドに縛られることはありません。常時300本以上を揃える膨大な試打シャフト・ヘッドの中から、フラットな視点で「あなたのスイングを最大化する一本」を厳選します。</p>
-                    </div>
-                </div>
-                <div class="faciFeatureItem mbM3" id="feature2">
-                    <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom2.jpg" alt="高精度スイング分析による徹底した数値化"></div>
-                    <div class="txt bgMainColor" data-aos="fade">
-                        <div class="inter mbS white">Feature.02</div>
-                        <p class="bold600 fsM15 lh_m15 ls_m white mbS2">高精度スイング分析による<br>徹底した数値化</p>
-                        <p class=" white mbS lh_xl">最新設備を駆使し、初速や入射角など、スイングの癖を徹底的に可視化します。数値の裏側にある振り心地の違和感も読み解き、根拠のあるシャフト選定を実施。データに基づく客観的な分析により、納得感を持って自分に最適な仕様を決定いただけます。</p>
-                    </div>
-                </div>
-                <div class="faciFeatureItem mbM3" id="feature3">
-                    <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom3.jpg" alt="クラフト歴20年以上の熟練職人が手掛ける、妥協なき技"></div>
-                    <div class="txt bgMainColor" data-aos="fade">
-                        <div class="inter mbS white">Feature.03</div>
-                        <p class="bold600 fsM15 lh_m15 ls_m white mbS2">クラフト歴20年以上の熟練職人が手掛ける、妥協なき技</p>
-                        <p class=" white mbS lh_xl">元ツアープロを師に持ち、自らも長年競技に打ち込んできた坂本一馬を筆頭とするインストラクターチームが、「あなたのゴルフ」を一緒に見つけます。どんなレベルでも、今より確実に変わるレッスンをご提供します。</p>
-                    </div>
-                </div>
-                <div class="faciFeatureItem mbM3" id="feature4">
-                    <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom4.jpg" alt="違和感を解消する対話型フィッティング"></div>
-                    <div class="txt bgMainColor" data-aos="fade">
-                        <div class="inter mbS white">Feature.04</div>
-                        <p class="bold600 fsM15 lh_m15 ls_m white mbS2">違和感を解消する<br>対話型フィッティング</p>
-                        <p class=" white mbS lh_xl">今お使いのクラブの重量や振り心地をヒアリングし、現状の課題を整理した上でフィッティングを開始。データと感覚の両面からアプローチし、お客様が納得するまで一本一本のスペックを煮詰めていきます。</p>
-                    </div>
-                </div>
-                <div class="faciFeatureItem mbM3" id="feature5">
-                    <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom5.jpg" alt="生涯のパートナーとして、安心のアフターフォロー"></div>
-                    <div class="txt bgMainColor" data-aos="fade">
-                        <div class="inter mbS white">Feature.05</div>
-                        <p class="bold600 fsM15 lh_m15 ls_m white mbS2">生涯のパートナーとして、<br>安心のアフターフォロー</p>
-                        <p class=" white mbS lh_xl">コースで使用した後の微調整や、数ヶ月・半年後のメンテナンスも承ります。経年によるスペックの変化やグリップ交換など、あなたのゴルフライフに長く寄り添います。一度仕立てたクラブのデータを蓄積しているため、将来的なセッティングの相談もスムーズです。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<?php else: ?>
-    <section id="faciCustom" class="padding">
+<!-- <section id="faciCustom" class="padding">
         <div class="cnt">
             <div class="cntM">
                 <div class="ttlWrap text-center mbS">
@@ -561,8 +488,82 @@
                 <p class="text-center bold600 fsL inter">Coming soon</p>
             </div>
         </div>
-    </section>
-<?php endif; ?>
+    </section> -->
+
+
+<section id="faciCustom">
+    <div class="faciCustomBg padding">
+        <div class="cnt" data-aos="fade">
+            <div class="cntS">
+                <div class="ttlWrap text-center white mbS">
+                    <div class="en">Custom Club Fitting</div>
+                    <h2 class="ja">クラフト工房のご紹介</h2>
+                </div>
+
+                <div class="faciStyleItemMain mbM3 mbSpM2">
+                    <div class="img">
+                        <img src="<?= get_template_directory_uri(); ?>/img/topFitting2.jpg" alt="スイングの真価を引き出す、究極の1本を" class="w100">
+                    </div>
+                    <div class="txt">
+                        <p class="bold600 fsM15 lh_m15 ls_m white mbS2">スイングの真価を引き出す、究極の1本を</p>
+                        <p class=" white mbS lh_xl">岡山でも数少ない、本格的なクラフト＆組み立て工房をスタジオ内に完備。最新鋭の設備と、歴20年を超える熟練クラフトマンによる職人技を融合させ、あなたに完璧に適合する一本を仕立てます。既存のクラブへの違和感を解消し、ポテンシャルを最大限に引き出す。ただ打つだけではない、道具から変える上達体験をホースワンゴルフスタジオがお約束します。</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="margin">
+        <div class="cntM">
+            <div class="ttlWrap text-center mbS">
+                <div class="en mainColor">Feature</div>
+                <h2 class="ja">クラフト工房５つの特徴</h2>
+            </div>
+            <div class="faciFeatureItem mbM3" id="feature1">
+                <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom1.jpg" alt="300本以上の試打ラインナップから導く「中立」の選定"></div>
+                <div class="txt bgMainColor" data-aos="fade">
+                    <div class="inter mbS white">Feature.01</div>
+                    <p class="bold600 fsM15 lh_m15 ls_m white mbS2">300本以上の試打ラインナップから導く「中立」の選定</p>
+                    <p class=" white mbS lh_xl">私たちは特定のメーカーやブランドに縛られることはありません。常時300本以上を揃える膨大な試打シャフト・ヘッドの中から、フラットな視点で「あなたのスイングを最大化する一本」を厳選します。</p>
+                </div>
+            </div>
+            <div class="faciFeatureItem mbM3" id="feature2">
+                <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom2.jpg" alt="高精度スイング分析による徹底した数値化"></div>
+                <div class="txt bgMainColor" data-aos="fade">
+                    <div class="inter mbS white">Feature.02</div>
+                    <p class="bold600 fsM15 lh_m15 ls_m white mbS2">高精度スイング分析による<br>徹底した数値化</p>
+                    <p class=" white mbS lh_xl">最新設備を駆使し、初速や入射角など、スイングの癖を徹底的に可視化します。数値の裏側にある振り心地の違和感も読み解き、根拠のあるシャフト選定を実施。データに基づく客観的な分析により、納得感を持って自分に最適な仕様を決定いただけます。</p>
+                </div>
+            </div>
+            <div class="faciFeatureItem mbM3" id="feature3">
+                <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom3.jpg" alt="クラフト歴20年以上の熟練職人が手掛ける、妥協なき技"></div>
+                <div class="txt bgMainColor" data-aos="fade">
+                    <div class="inter mbS white">Feature.03</div>
+                    <p class="bold600 fsM15 lh_m15 ls_m white mbS2">クラフト歴20年以上の熟練職人が手掛ける、妥協なき技</p>
+                    <p class=" white mbS lh_xl">ツアープロを師に持ち、自らも長年競技に打ち込んできた坂本一馬を筆頭とするインストラクターチームが、「あなたのゴルフ」を一緒に見つけます。どんなレベルでも、今より確実に変わるレッスンをご提供します。</p>
+                </div>
+            </div>
+            <div class="faciFeatureItem mbM3" id="feature4">
+                <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom4.jpg" alt="違和感を解消する対話型フィッティング"></div>
+                <div class="txt bgMainColor" data-aos="fade">
+                    <div class="inter mbS white">Feature.04</div>
+                    <p class="bold600 fsM15 lh_m15 ls_m white mbS2">違和感を解消する<br>対話型フィッティング</p>
+                    <p class=" white mbS lh_xl">今お使いのクラブの重量や振り心地をヒアリングし、現状の課題を整理した上でフィッティングを開始。データと感覚の両面からアプローチし、お客様が納得するまで一本一本のスペックを煮詰めていきます。</p>
+                </div>
+            </div>
+            <div class="faciFeatureItem mbM3" id="feature5">
+                <div class="img" data-aos="fade"><img src="<?php echo get_template_directory_uri(); ?>/img/faciCustom5.jpg" alt="生涯のパートナーとして、安心のアフターフォロー"></div>
+                <div class="txt bgMainColor" data-aos="fade">
+                    <div class="inter mbS white">Feature.05</div>
+                    <p class="bold600 fsM15 lh_m15 ls_m white mbS2">生涯のパートナーとして、<br>安心のアフターフォロー</p>
+                    <p class=" white mbS lh_xl">コースで使用した後の微調整や、数ヶ月・半年後のメンテナンスも承ります。経年によるスペックの変化やグリップ交換など、あなたのゴルフライフに長く寄り添います。一度仕立てたクラブのデータを蓄積しているため、将来的なセッティングの相談もスムーズです。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 
