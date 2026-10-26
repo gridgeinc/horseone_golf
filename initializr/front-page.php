@@ -769,6 +769,37 @@
         </div>
     </div>
 </section>
+
+<section id="faciCustom" class="margin">
+    <div class="faciCustomBg __collabo padding">
+        <div class="cnt" data-aos="fade">
+            <div class="cntS">
+                <div class="ttlWrap text-center white mbS">
+                    <div class="en">MOZ × Horse One Golf studio</div>
+                    <h2 class="ja">コラボレーションウェッジ、誕生！</h2>
+                </div>
+
+                <div class="faciStyleItemMain mbM3 mbSpM2">
+                    <div class="img">
+                        <img src="<?= get_template_directory_uri(); ?>/img/collabo.jpg" alt="スピンも打感も妥協しない、理想のウェッジ" class="w100">
+                    </div>
+                    <div class="txt">
+                        <p class="bold600 fsM15 lh_m15 ls_m white mbS2">スピンも打感も妥協しない、<br class="pc">理想のウェッジ</p>
+                        <p class=" white mbS lh_xl">
+                            スピン性能・打感・操作性など、ウェッジに求められる性能を高水準でバランスよく追求した、MOZとのコラボレーションウェッジが誕生しました。<br>
+                            ロフトごとにこだわったソール形状や柔らかな打感など、細部までこだわりを詰め込んだ一本です。
+                        </p>
+                        <div class="">
+                            <a href="<?= home_url(); ?>/mozhog-golfwedge/" class="cmnbtn"><span>コラボウェッジを詳しく見る</span></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 <section>
     <div class="cnt padding" data-aos="fade">
         <div class="cntM">

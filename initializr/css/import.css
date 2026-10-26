@@ -6731,6 +6731,9 @@ ul.topNewsList li {
 .faciCustomBg {
   background: url(../img/faciCustomBg.jpg) no-repeat center top/cover;
 }
+.faciCustomBg.__collabo {
+  background: url(../img/collaboBg.jpg) no-repeat center top/cover;
+}
 
 .coachingIn {
   padding: 2em;
